@@ -25,6 +25,7 @@ const sidebars: SidebarsConfig = {
       label: 'Web App',
       items: [
         'web/overview',
+        'web/scheduling',
       ],
     },
     {
