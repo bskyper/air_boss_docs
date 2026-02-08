@@ -96,6 +96,15 @@ Expected result:
 - Switch active club from the header selector.
 - Reload schedule after switching club.
 
+## Screenshot Slots
+
+- File: `/img/docs/web/web-scheduling-step-01-week-view.webp`
+  Place: below `### Calendar view navigation`
+- File: `/img/docs/web/web-scheduling-step-02-new-reservation-form.webp`
+  Place: below `### Form fields`
+- File: `/img/docs/web/web-scheduling-step-03-edit-reservation.webp`
+  Place: below `### Editing or canceling an existing reservation`
+
 :::tip
 Use the week view when comparing multiple aircraft for the same time window.
 :::

@@ -31,3 +31,8 @@ Each card typically includes:
 - Treat grounded/critical items as same-day priorities.
 - Keep comment history concise and actionable.
 - Link maintenance scheduling blocks to major squawks to prevent booking overlap.
+
+## Screenshot Slots
+
+- File: `/img/docs/admin/admin-maintenance-step-01-squawk-board.webp`
+  Place: below `## Board structure`

@@ -6,6 +6,13 @@ sidebar_position: 2
 
 Start a new flight club on Air Boss.
 
+## Where to Create a Club
+
+New club setup is done on the **website** only.
+
+- Open [www.air-boss.club](https://www.air-boss.club)
+- Sign in and use the create-club flow from the web onboarding path
+
 ## Before You Begin
 
 You'll need:
@@ -15,12 +22,12 @@ You'll need:
 
 ## Create Your Club
 
-1. Log in to Air Boss
-2. From the home screen, tap **Create Club**
+1. Log in at [www.air-boss.club](https://www.air-boss.club)
+2. Choose **Create a new club**
 3. Enter your club details:
    - **Club Name** — Your official club name
-   - **Description** — Brief description of your club
-   - **Location** — Home airport or region
+   - **Home Airport** — Primary airport code (recommended)
+   - **Club Key / Club Password** — Access credentials for member join flow
    - **Logo** — Upload your club logo (optional)
 
 4. Tap **Create Club**
@@ -52,8 +59,8 @@ Add your fleet:
 ### 3. Invite Members
 
 Share your club with pilots:
-- Send them your club name to search for
-- Share an invite link (coming soon)
+- Share your **club key**
+- Share your **club password** securely
 
 ## Club Settings
 

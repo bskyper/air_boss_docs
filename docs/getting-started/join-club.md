@@ -10,16 +10,15 @@ Learn how to join an existing flight club on Air Boss.
 
 If your club already uses Air Boss:
 
-1. Ask your club admin for the **club name** or **invite link**
+1. Ask your club admin for the **club key** and **club password**
 2. Open the Air Boss app
 3. Tap **Join Club** on the home screen
-4. Search for your club by name or enter the invite code
-
-On web, you may also be asked for a **club key** and **club password** provided by your admin.
+4. Enter your **club key**
+5. Enter your **club password**
 
 ## Requesting Membership
 
-1. Select your club from the search results
+1. Submit your club credentials
 2. Tap **Request to Join**
 3. Your request will be sent to the club admin for approval
 
@@ -49,4 +48,4 @@ Your club admin may need to verify your pilot documents before you can book airc
 
 ## Multiple Clubs
 
-You can be a member of multiple clubs! Tap the club switcher at the top of the app to switch between clubs.
+You can be a member of multiple clubs. Use each club's key/password to join, then use the club switcher to move between them.

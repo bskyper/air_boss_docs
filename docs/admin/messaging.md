@@ -64,3 +64,8 @@ Example:
 
 - Ensure body has content.
 - Ensure at least one channel is enabled.
+
+## Screenshot Slots
+
+- File: `/img/docs/admin/admin-messaging-step-01-broadcast-form.webp`
+  Place: below `## Broadcast workflow`

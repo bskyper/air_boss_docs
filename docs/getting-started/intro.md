@@ -41,6 +41,6 @@ Choose your platform to get started:
 |--------------|----------|
 | Create an account | [Sign Up Guide](/getting-started/signup) |
 | Join a club | [Joining a Club](/getting-started/join-club) |
-| Create a new club | [Creating a Club](/admin/create-club) |
+| Create a new club (web only) | [Creating a Club](/admin/create-club) |
 | Book an aircraft | [Scheduling](/mobile/scheduling) |
 | Log a flight | [Scheduling](/mobile/scheduling#completing-a-flight) |

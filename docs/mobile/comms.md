@@ -25,3 +25,8 @@ Admins can send club-wide messages from club admin tools. Depending on settings,
 - Send as push notifications
 - Post to Comms feed
 - Do both
+
+## Screenshot Slots
+
+- File: `/img/docs/mobile/mobile-comms-step-01-feed-overview.webp`
+  Place: below `## What appears in Comms`

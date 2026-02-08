@@ -54,6 +54,7 @@ const sidebars: SidebarsConfig = {
       ],
     },
     'documentation-backlog',
+    'screenshots-checklist',
     'faq',
     {
       type: 'category',
