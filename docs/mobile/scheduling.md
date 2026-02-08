@@ -99,14 +99,14 @@ Book in advance! Popular aircraft fill up quickly, especially on weekends.
 Add a clear destination and purpose to reduce back-and-forth with instructors or dispatch.
 :::
 
-## Checkout Flow
+## Start Flight Flow
 
 When it's time for your flight:
 
 1. Open your reservation
-2. Tap **Start Checkout**
+2. Tap **Start Flight**
 3. Record the starting Hobbs and Tach times
-4. Complete your preflight checklist
+4. Complete any required preflight steps prompted by your club workflow
 5. You're cleared to fly! ✈️
 
 ## Completing a Flight
@@ -114,7 +114,7 @@ When it's time for your flight:
 After landing:
 
 1. Open your active flight
-2. Tap **Complete Flight**
+2. Tap **End Flight**
 3. Enter ending Hobbs and Tach times
 4. Add any notes or squawks
 5. Submit your flight log

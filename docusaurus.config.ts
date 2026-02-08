@@ -49,7 +49,7 @@ const config: Config = {
       title: 'Air Boss',
       logo: {
         alt: 'Air Boss Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo.png',
       },
       items: [
         {
@@ -94,7 +94,7 @@ const config: Config = {
             },
             {
               label: 'Google Play',
-              href: 'https://play.google.com/store/apps/details?id=com.mycompany.airboss',
+              href: 'https://play.google.com/store/apps/details?id=com.mycompany.airboss&hl=en-US',
             },
           ],
         },

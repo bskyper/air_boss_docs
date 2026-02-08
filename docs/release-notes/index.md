@@ -10,7 +10,7 @@ Stay up to date with the latest Air Boss changes.
 
 ### Mobile App
 - **iOS:** Check the [App Store](https://apps.apple.com/us/app/air-boss-flight-fleet-ops/id6472218943) for version info
-- **Android:** Check [Google Play](https://play.google.com/store/apps/details?id=com.mycompany.airboss) for version info
+- **Android:** Check [Google Play](https://play.google.com/store/apps/details?id=com.mycompany.airboss&hl=en-US) for version info
 
 ### Web App
 The web app is updated continuously. No action needed!
