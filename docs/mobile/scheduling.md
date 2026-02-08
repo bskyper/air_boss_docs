@@ -169,3 +169,12 @@ Your club may have rules about:
 - Checkout requirements
 
 Contact your club admin for specific policies.
+
+## Screenshot Slots
+
+- File: `/img/docs/mobile/mobile-scheduling-step-01-open-schedule.webp`
+  Place: below `## Viewing the Schedule`
+- File: `/img/docs/mobile/mobile-scheduling-step-02-select-aircraft-time.webp`
+  Place: below `### Step-by-step walkthrough`
+- File: `/img/docs/mobile/mobile-scheduling-step-03-confirm-booking.webp`
+  Place: below `### What happens after booking`

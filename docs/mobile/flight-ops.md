@@ -85,3 +85,12 @@ Recommended use:
 
 - Immediately notify club admin.
 - Include flight ID, tail number, and corrected values for reconciliation.
+
+## Screenshot Slots
+
+- File: `/img/docs/mobile/mobile-flight-ops-step-01-start-flight-form.webp`
+  Place: below `## Start a Flight`
+- File: `/img/docs/mobile/mobile-flight-ops-step-02-active-flight-banner.webp`
+  Place: below `Expected result:` in `## Start a Flight`
+- File: `/img/docs/mobile/mobile-flight-ops-step-03-end-flight-form.webp`
+  Place: below `## Complete a Flight`

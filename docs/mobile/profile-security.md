@@ -32,3 +32,8 @@ Typical required documents:
 ## My Clubs
 
 From profile, open **My Clubs** to view membership context and club access state.
+
+## Screenshot Slots
+
+- File: `/img/docs/mobile/mobile-profile-security-step-01-documents-section.webp`
+  Place: below `## Pilot Documents`

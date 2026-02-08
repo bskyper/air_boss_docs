@@ -71,3 +71,10 @@ Use admin **Schedule** to manage club-wide reservation operations.
 
 - Reopen block and verify it was saved with maintenance status.
 - Confirm you are in the correct club context.
+
+## Screenshot Slots
+
+- File: `/img/docs/admin/admin-reservations-step-01-timeline-view.webp`
+  Place: below `## Views and controls`
+- File: `/img/docs/admin/admin-reservations-step-02-maintenance-hold.webp`
+  Place: below `## Maintenance Hold Workflow`

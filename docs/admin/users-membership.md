@@ -87,3 +87,10 @@ Recommended use:
 
 - Use browser refresh.
 - Recheck active club selector.
+
+## Screenshot Slots
+
+- File: `/img/docs/admin/admin-users-step-01-pending-members.webp`
+  Place: below `## Pending Approval Workflow`
+- File: `/img/docs/admin/admin-users-step-02-member-approval.webp`
+  Place: below `## Member Status and Role Workflow`

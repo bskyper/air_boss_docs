@@ -28,3 +28,8 @@ Typical signs:
 2. Launch Stripe portal.
 3. Resolve payment/subscription issue.
 4. Return to dashboard and confirm active status.
+
+## Screenshot Slots
+
+- File: `/img/docs/admin/admin-billing-step-01-billing-status.webp`
+  Place: below `## Billing Hold`

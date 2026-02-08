@@ -40,5 +40,5 @@ Upload clear photos or PDFs of your documents. Club admins will verify them befo
 
 After creating your account:
 
-- [Join an existing club](/getting-started/join-club)
-- [Create a new club](/admin/create-club) (if you're a club admin)
+- [Join an existing club](/getting-started/join-club) using your club key and club password
+- [Create a new club](/admin/create-club) on the website (if you're a club admin)

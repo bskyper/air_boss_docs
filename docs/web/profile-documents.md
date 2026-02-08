@@ -74,3 +74,10 @@ Document requirements and compliance indicators depend on the selected active cl
 - Check spam/junk first.
 - Verify account email in profile.
 - Trigger reset again after a short wait.
+
+## Screenshot Slots
+
+- File: `/img/docs/web/web-profile-documents-step-01-profile-form.webp`
+  Place: below `## Update Profile Workflow`
+- File: `/img/docs/web/web-profile-documents-step-02-upload-document.webp`
+  Place: below `## Document Upload Workflow`

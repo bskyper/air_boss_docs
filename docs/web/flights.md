@@ -74,3 +74,10 @@ Use this page for club-wide visibility:
 - Re-check active club.
 - Clear or adjust filters.
 - Refresh page to pull newest data.
+
+## Screenshot Slots
+
+- File: `/img/docs/web/web-flights-step-01-my-flights-entry.webp`
+  Place: below `### Log Flight Workflow`
+- File: `/img/docs/web/web-flights-step-02-all-flights-filters.webp`
+  Place: below `### Review Workflow`

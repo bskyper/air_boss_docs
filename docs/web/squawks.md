@@ -27,3 +27,8 @@ Use list filters for:
 - Keep summary short and specific.
 - Include exact symptoms and when they occurred.
 - Add photos for panel warnings, damage, or leaks.
+
+## Screenshot Slots
+
+- File: `/img/docs/web/web-squawks-step-01-new-squawk-form.webp`
+  Place: below `## Create a squawk`
