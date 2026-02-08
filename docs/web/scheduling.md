@@ -6,6 +6,12 @@ sidebar_position: 2
 
 Book aircraft and manage reservations from the web app.
 
+## Before You Start
+
+- Confirm the active club in the top selector.
+- Verify aircraft status and existing holds.
+- Use week view for conflict-heavy time ranges.
+
 ## Booking an Aircraft
 
 This walkthrough follows the web booking flow from the calendar.
@@ -46,6 +52,17 @@ This walkthrough follows the web booking flow from the calendar.
 - Drag across time cells (if enabled) to select a block.
 - Clicking a booked slot opens the reservation details instead of booking.
 
+### Editing or canceling an existing reservation
+
+1. Click your reservation block.
+2. Choose **Edit** or **Cancel**.
+3. Save changes or confirm cancellation.
+
+Expected result:
+
+- Timeline updates immediately.
+- Team members see the new block state.
+
 ### Form fields
 
 - **Aircraft**: Select from the fleet list.
@@ -59,6 +76,25 @@ This walkthrough follows the web booking flow from the calendar.
 - A confirmation banner appears after saving.
 - The reservation is added to the calendar immediately.
 - You’ll receive a notification (and email, if enabled).
+
+## Troubleshooting
+
+### Slot is visible but booking fails
+
+- Refresh the page and try again.
+- Check if another user created a reservation moments earlier.
+- Check club booking rules (duration/window/approval).
+- Check if aircraft is in maintenance state.
+
+### Cannot edit reservation
+
+- You can generally edit only your own pilot reservation in pilot workspace.
+- If block ownership or role is the issue, contact admin.
+
+### Wrong club data appears
+
+- Switch active club from the header selector.
+- Reload schedule after switching club.
 
 :::tip
 Use the week view when comparing multiple aircraft for the same time window.
