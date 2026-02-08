@@ -20,6 +20,7 @@ Your personalized dashboard shows:
 - Upcoming reservations
 - Recent club activity
 - Quick actions
+- Club weather snapshot
 
 ### Aircraft
 
@@ -41,6 +42,7 @@ Your personalized dashboard shows:
 - Record Hobbs and Tach times
 - Track flight hours
 - View your flight history
+- Support maintenance flight workflows
 
 ### Squawks
 
@@ -55,8 +57,16 @@ The bottom navigation bar provides quick access to:
 
 | Icon | Section | Description |
 |------|---------|-------------|
-| 🏠 | Home | Dashboard and quick actions |
-| ✈️ | Aircraft | Fleet management |
-| 📅 | Schedule | Booking calendar |
-| 📝 | Flights | Flight logging |
-| ⚙️ | More | Settings and profile |
+| 🏠 | Tower | Dashboard, weather, quick status |
+| 📡 | Comms | Club activity and broadcasts |
+| ✈️ | Fleet | Aircraft list and aircraft operations |
+| 🏢 | Hangar | Club details, members, admin tools |
+| 👤 | Pilot | Profile, documents, settings |
+
+## Next Guides
+
+- [Mobile Navigation](/mobile/navigation)
+- [Scheduling & Reservations](/mobile/scheduling)
+- [Flight Operations](/mobile/flight-ops)
+- [Comms Feed](/mobile/comms)
+- [Profile, Documents, and Security](/mobile/profile-security)
