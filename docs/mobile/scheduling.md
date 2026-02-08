@@ -6,6 +6,12 @@ sidebar_position: 2
 
 Book aircraft and manage your reservations.
 
+## Before You Book
+
+- Confirm your active club is correct.
+- Verify your documents are current and approved.
+- Check aircraft status for maintenance or grounding before selecting times.
+
 ## Viewing the Schedule
 
 1. Tap the **Schedule** tab in the bottom navigation
@@ -73,6 +79,18 @@ This flow walks you through selecting an aircraft, choosing a time, and confirmi
 - The reservation shows up on your schedule immediately.
 - You’ll receive a notification (and email, if enabled) with the booking summary.
 
+## Editing an Existing Reservation
+
+1. Open the reservation from schedule.
+2. Tap edit/update.
+3. Adjust date/time and notes.
+4. Save changes.
+
+Expected result:
+
+- Reservation block updates immediately.
+- Other pilots see the updated block.
+
 :::tip
 Book in advance! Popular aircraft fill up quickly, especially on weekends.
 :::
@@ -112,6 +130,35 @@ Need to cancel?
 :::note
 Please cancel as early as possible so other pilots can book the aircraft.
 :::
+
+## Conflict and Rule Handling
+
+When booking fails, common causes are:
+
+- Existing reservation conflict
+- Aircraft maintenance hold
+- Maximum duration exceeded
+- Booking window not yet open
+- Required documents not verified
+
+## If Something Fails
+
+### I cannot book even though time looks open
+
+- Pull to refresh schedule and retry.
+- Check if maintenance hold exists on that aircraft.
+- Verify your profile documents and club approval status.
+
+### My booking disappeared
+
+- Confirm active club did not switch.
+- Check if reservation was canceled or modified by admin.
+- Re-open schedule in day and week views to verify date/time.
+
+### I booked the wrong time or aircraft
+
+- Edit or cancel immediately.
+- Add a brief note if other members were affected.
 
 ## Reservation Rules
 
