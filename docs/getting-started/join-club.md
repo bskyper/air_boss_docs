@@ -15,6 +15,8 @@ If your club already uses Air Boss:
 3. Tap **Join Club** on the home screen
 4. Search for your club by name or enter the invite code
 
+On web, you may also be asked for a **club key** and **club password** provided by your admin.
+
 ## Requesting Membership
 
 1. Select your club from the search results
@@ -24,6 +26,8 @@ If your club already uses Air Boss:
 :::note
 Some clubs require admin approval before you can access club features. You'll receive a notification when your request is approved.
 :::
+
+If your account is still pending, you may see a dedicated **Pending Approval** screen until an admin activates your membership.
 
 ## After Approval
 

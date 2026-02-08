@@ -17,7 +17,11 @@ const sidebars: SidebarsConfig = {
       label: 'Mobile App',
       items: [
         'mobile/overview',
+        'mobile/navigation',
         'mobile/scheduling',
+        'mobile/flight-ops',
+        'mobile/comms',
+        'mobile/profile-security',
       ],
     },
     {
@@ -26,6 +30,10 @@ const sidebars: SidebarsConfig = {
       items: [
         'web/overview',
         'web/scheduling',
+        'web/flights',
+        'web/aircraft',
+        'web/squawks',
+        'web/profile-documents',
       ],
     },
     {
@@ -33,9 +41,19 @@ const sidebars: SidebarsConfig = {
       label: 'Admin Guide',
       items: [
         'admin/overview',
+        'admin/reservations',
+        'admin/aircraft',
+        'admin/maintenance',
+        'admin/flight-log-entry',
+        'admin/users-membership',
+        'admin/messaging',
+        'admin/reports',
+        'admin/billing',
+        'admin/club-management',
         'admin/create-club',
       ],
     },
+    'documentation-backlog',
     'faq',
     {
       type: 'category',
