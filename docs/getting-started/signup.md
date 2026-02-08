@@ -8,7 +8,7 @@ Get started with Air Boss in minutes.
 
 ## Sign Up
 
-1. Download the Air Boss app from the [App Store](https://apps.apple.com/us/app/air-boss-flight-fleet-ops/id6472218943) or [Google Play](https://play.google.com/store/apps/details?id=com.mycompany.airboss)
+1. Download the Air Boss app from the [App Store](https://apps.apple.com/us/app/air-boss-flight-fleet-ops/id6472218943) or [Google Play](https://play.google.com/store/apps/details?id=com.mycompany.airboss&hl=en-US)
 2. Tap **Sign Up**
 3. Enter your email address and create a password
 4. Verify your email address

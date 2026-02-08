@@ -30,7 +30,7 @@ Choose your platform to get started:
   <a href="https://apps.apple.com/us/app/air-boss-flight-fleet-ops/id6472218943" target="_blank">
     <img src="/img/app-store-badge.svg" alt="Download on the App Store" height="50" />
   </a>
-  <a href="https://play.google.com/store/apps/details?id=com.mycompany.airboss" target="_blank">
+  <a href="https://play.google.com/store/apps/details?id=com.mycompany.airboss&hl=en-US" target="_blank">
     <img src="/img/google-play-badge.png" alt="Get it on Google Play" height="50" />
   </a>
 </div>

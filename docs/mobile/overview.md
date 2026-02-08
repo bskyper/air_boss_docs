@@ -9,7 +9,7 @@ The Air Boss mobile app is available for iOS and Android devices.
 ## Download
 
 - **iOS:** [App Store](https://apps.apple.com/us/app/air-boss-flight-fleet-ops/id6472218943)
-- **Android:** [Google Play](https://play.google.com/store/apps/details?id=com.mycompany.airboss)
+- **Android:** [Google Play](https://play.google.com/store/apps/details?id=com.mycompany.airboss&hl=en-US)
 
 ## Key Features
 

@@ -11,7 +11,7 @@ The Air Boss web app has two workspaces:
 
 ## Access
 
-Visit [app.air-boss.com](https://app.air-boss.com) to access the web app.
+Visit [www.air-boss.club](https://www.air-boss.club) to access the web app.
 
 ## Pilot Workspace Features
 
