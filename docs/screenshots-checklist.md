@@ -65,7 +65,7 @@ Examples:
 - [ ] `web-scheduling-step-01-week-view.webp`
 - [ ] `web-scheduling-step-02-new-reservation-form.webp`
 - [ ] `web-scheduling-step-03-edit-reservation.webp`
-- [ ] `web-flights-step-01-my-flights-entry.webp`
+- [ ] `web-flights-step-01-my-flights-entry.jpg`
 - [ ] `web-flights-step-02-all-flights-filters.webp`
 - [ ] `web-profile-documents-step-01-profile-form.webp`
 - [ ] `web-profile-documents-step-02-upload-document.webp`

@@ -39,6 +39,8 @@ Expected result:
 - Row appears in history sorted by date/time.
 - Calculated values and flags are visible in-table.
 
+![My Flights entry workflow](/img/docs/web/web-flights-step-01-my-flights-entry.jpg)
+
 ## All Flights
 
 Use this page for club-wide visibility:
@@ -77,7 +79,7 @@ Use this page for club-wide visibility:
 
 ## Screenshot Slots
 
-- File: `/img/docs/web/web-flights-step-01-my-flights-entry.webp`
+- File: `/img/docs/web/web-flights-step-01-my-flights-entry.jpg`
   Place: below `### Log Flight Workflow`
 - File: `/img/docs/web/web-flights-step-02-all-flights-filters.webp`
   Place: below `### Review Workflow`
