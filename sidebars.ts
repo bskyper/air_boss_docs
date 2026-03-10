@@ -10,6 +10,7 @@ const sidebars: SidebarsConfig = {
         'getting-started/intro',
         'getting-started/signup',
         'getting-started/join-club',
+        'getting-started/invite-link',
       ],
     },
     {
@@ -34,6 +35,7 @@ const sidebars: SidebarsConfig = {
         'web/aircraft',
         'web/squawks',
         'web/profile-documents',
+        'web/notification-preferences',
       ],
     },
     {
@@ -46,6 +48,8 @@ const sidebars: SidebarsConfig = {
         'admin/maintenance',
         'admin/flight-log-entry',
         'admin/users-membership',
+        'admin/document-review',
+        'admin/invitations',
         'admin/messaging',
         'admin/reports',
         'admin/billing',
@@ -53,8 +57,6 @@ const sidebars: SidebarsConfig = {
         'admin/create-club',
       ],
     },
-    'documentation-backlog',
-    'screenshots-checklist',
     'faq',
     {
       type: 'category',

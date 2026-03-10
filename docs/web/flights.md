@@ -2,84 +2,56 @@
 sidebar_position: 3
 ---
 
-# Flights (Web Pilot)
+# Log and Review Flights (Web)
 
-The web pilot workspace has two flight views:
+The web pilot workspace has two flight pages:
 
-- **My Flights** — flights tied to your pilot account
-- **All Flights** — all flights in the active club
+- **My Flights** (`/app/flights`)
+- **All Flights** (`/app/all-flights`)
 
-## Before You Log
-
-- Confirm active club in the header.
-- Confirm tail number and billing basis (Hobbs vs Tach).
-- Gather panel values before starting entry.
-
-## My Flights
-
-Use this page to:
-
-- Review your latest logs
-- Log new flights
-- Track Hobbs/Tach discrepancies
-- Mark maintenance flights
-- Enter landing counts (if enabled per aircraft)
-
-### Log Flight Workflow
+## Log a flight in My Flights
 
 1. Open **My Flights**.
-2. Select aircraft/tail.
-3. Enter flight date and meter values.
-4. Set discrepancy/maintenance flags if needed.
-5. Enter landing count if required.
-6. Save and verify the row in latest flights.
+2. Select tail number.
+3. Enter:
+   - Flight date
+   - Hobbs start/end (when shown)
+   - Tach start/end
+   - Oil start and oil added
+4. Optional:
+   - Mark time discrepancy
+   - Mark maintenance flight
+5. Enter landings if required for that aircraft.
+6. Save.
 
-Expected result:
+*Screenshot: [My Flights log form with meter fields and discrepancy/maintenance toggles]*
 
-- Row appears in history sorted by date/time.
-- Calculated values and flags are visible in-table.
+## Important validation rules
 
-![My Flights entry workflow](/img/docs/web/web-flights-step-01-my-flights-entry.jpg)
+- End values cannot be lower than start values
+- Landing count can be required by aircraft settings
+- Hobbs visibility depends on billing method and "track both times"
 
-## All Flights
+## Review totals and recent logs
 
-Use this page for club-wide visibility:
+My Flights also shows:
 
-- Filter by tail number, pilot, date range
-- Filter for discrepancy/squawk-flagged flights
-- Review tach/hobbs values and billing basis
+- Hours summary cards
+- Estimated billing cues
+- Recent flight rows with discrepancy and squawk flags
 
-### Review Workflow
+## Use All Flights for club-wide review
 
-1. Open **All Flights**.
-2. Start with date range filter.
-3. Narrow by tail/pilot.
-4. Toggle discrepancy and squawk filters.
-5. Use resulting rows for follow-up with admin/maintenance.
+In **All Flights**, filter by:
 
-## Tips
+- Tail number
+- Pilot
+- Date range
+- Time discrepancy only
+- Squawk-flagged only
 
-- Ensure your active club is correct before interpreting totals.
-- Use **All Flights** for reconciliation/trend review.
-- Use **My Flights** for personal log entry and quick corrections.
+*Screenshot: [All Flights filters and results table]*
 
-## If Something Fails
-
-### Flight row won’t save
-
-- Check numeric format in meter fields.
-- Confirm end values are not below start values.
-- Ensure landing count exists when required by aircraft config.
-
-### Missing flight in list
-
-- Re-check active club.
-- Clear or adjust filters.
-- Refresh page to pull newest data.
-
-## Screenshot Slots
-
-- File: `/img/docs/web/web-flights-step-01-my-flights-entry.jpg`
-  Place: below `### Log Flight Workflow`
-- File: `/img/docs/web/web-flights-step-02-all-flights-filters.webp`
-  Place: below `### Review Workflow`
+:::tip
+Use My Flights to log your own flights. Use All Flights to audit trends across the whole club.
+:::

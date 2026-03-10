@@ -2,34 +2,40 @@
 sidebar_position: 5
 ---
 
-# Billing (Admin)
+# Billing and Subscription (Admin)
 
-Billing is managed in the admin web workspace.
+Billing management is centered in `/dashboard/billing`.
 
-## What you can do
+## What you can do in Billing
 
 - Review subscription status
+- See Stripe customer/subscription IDs
 - Open Stripe customer portal
-- Confirm linked customer/subscription IDs
-- Verify club billing state
+- Confirm hold/active state for the active club
 
-## Billing Hold
+*Screenshot: [Billing page with subscription details and Open billing button]*
 
-If subscription state is inactive, the app can place the club in **billing hold**.
+## Billing hold behavior
 
-Typical signs:
+If a trial or subscription is not active:
 
-- Hold warning banner in billing screen
-- Restricted admin workflow access
+- Club can be placed in **billing hold**
+- Scheduling, aircraft, and maintenance tools are paused
+- Users may be directed to `/billing/hold`
 
-## Recovery flow
+On `/billing/hold`:
 
-1. Open **Billing**.
+- Admins get a direct link to `/dashboard/billing`
+- Non-admin members are told to contact a club admin
+
+## Recovery steps
+
+1. Open `/dashboard/billing`.
 2. Launch Stripe portal.
-3. Resolve payment/subscription issue.
-4. Return to dashboard and confirm active status.
+3. Resolve payment/subscription issues.
+4. Return to dashboard and confirm hold warning is cleared.
 
-## Screenshot Slots
+## Club Management billing tab
 
-- File: `/img/docs/admin/admin-billing-step-01-billing-status.webp`
-  Place: below `## Billing Hold`
+`/dashboard/clubs/billing` currently exists but is labeled **Coming Soon**.
+Use `/dashboard/billing` for actual billing actions today.

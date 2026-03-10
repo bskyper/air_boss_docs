@@ -4,19 +4,51 @@ sidebar_position: 2
 
 # Mobile Navigation
 
-Air Boss mobile uses five primary tabs:
+Air Boss mobile uses five bottom tabs.
 
-- **Tower** — home snapshot (weather, fleet status, upcoming reservations)
-- **Comms** — club activity and broadcasts
-- **Fleet** — aircraft list and aircraft details
-- **Hangar** — club details, members, and admin club actions
-- **Pilot** — your profile, documents, security, and personal settings
+## Bottom tabs
 
-## Club Context
+1. **Tower** (`/`)
+   - Club overview
+   - Operational snapshots
+2. **Comms** (`/feed`)
+   - Club activity feed
+   - Broadcast messages
+3. **Fleet** (`/aircraft-tab/:clubId`)
+   - Aircraft list
+   - Reserve and flight actions
+4. **Hangar** (`/clubs/:clubId`)
+   - Club details, member tools, admin actions
+5. **Pilot** (`/profile`)
+   - Your account, documents, settings
 
-If you belong to multiple clubs, use the club switcher to change active context. Most data (aircraft, reservations, feed, members) is scoped to the currently selected club.
+*Screenshot: [Bottom navigation with Tower, Comms, Fleet, Hangar, and Pilot tabs]*
 
-## Admin vs Member
+## Badge indicators
 
-- Members can use pilot workflows (reservations, flights, squawks, profile).
-- Admins see additional controls under `Fleet` and `Hangar` (edit aircraft, member approvals, messaging, club management).
+- **Comms:** unread broadcast count
+- **Fleet:** maintenance alert count
+- **Hangar:** club notification count
+- **Pilot:** pending reservations badge
+
+## How to switch clubs
+
+1. Open **Pilot**.
+2. Tap **My Clubs**.
+3. Select the club you want to make active.
+
+Most data is club-specific, including reservations, aircraft, feed items, and document requirements.
+
+:::tip
+If data looks wrong, first confirm your active club.
+:::
+
+## Where scheduling lives on mobile
+
+There is no separate bottom-tab named "Schedule." Use:
+
+1. **Fleet** tab
+2. Select an aircraft
+3. Tap **Reserve**
+
+This opens the reservation calendar for that aircraft.

@@ -2,30 +2,51 @@
 sidebar_position: 3
 ---
 
-# Aircraft Management (Admin)
+# Manage Aircraft (Admin)
 
-Use admin **Aircraft** for fleet lifecycle management.
+Use `/dashboard/aircraft` for fleet management.
 
-## Core actions
+## What you can do
 
-- Add new aircraft
-- Edit aircraft profile and status
-- Configure billing method/rate behavior
-- Update maintenance fields and due dates
-- Remove aircraft when needed
+- Add aircraft
+- Edit dispatch and billing settings
+- Update maintenance schedules
+- Manage aircraft documents (POH, W&B, cheat sheet)
+- Track airworthiness directives
+- Remove aircraft
 
-## Data quality checklist
+## Add a new aircraft
 
-- Tail number, make/model/year are complete
-- Current meter values are accurate
-- Status reflects operational reality (airworthy/grounded/etc.)
-- Document links (POH/W&B/cheat sheet) are valid
+1. Open **Aircraft**.
+2. Click **Add aircraft**.
+3. Complete required fields:
+   - Tail number
+   - Make/model/year
+   - Current Hobbs and Tach
+   - Status
+   - Hourly rate
+   - Billing method/calc options
+4. Save.
 
-## Why this matters
+*Screenshot: [Add aircraft form with identity, status, billing, and meter fields]*
 
-Aircraft settings directly affect:
+## Manage an existing aircraft
 
-- Pilot booking eligibility
-- Flight-log validation behavior
-- Billing calculations
-- Maintenance warnings shown to pilots
+1. Open an aircraft profile.
+2. Review dispatch data and quick stats.
+3. Update:
+   - Billing/rate settings
+   - Combination code and parking
+   - Maintenance due dates
+   - Reference documents
+4. Save.
+
+## Best practices
+
+- Keep Hobbs/Tach current after maintenance events.
+- Keep status accurate to prevent bad bookings.
+- Upload current docs so pilots can self-serve preflight references.
+
+:::warning
+Aircraft settings directly affect pilot booking validation and cost calculations. Verify changes before dispatch periods.
+:::

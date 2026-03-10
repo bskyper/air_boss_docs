@@ -2,33 +2,45 @@
 sidebar_position: 5
 ---
 
-# Squawks (Web Pilot)
+# Report and Track Squawks (Web)
 
-Use **Squawks** to report and track aircraft issues.
+Use this page to file aircraft issues and follow progress.
 
-## Create a squawk
+## Create a new squawk
 
-1. Choose tail number.
-2. Set priority and category.
-3. Enter summary and detailed description.
-4. Add image attachments (optional).
-5. Submit.
+1. Open **Squawks**.
+2. Complete required fields:
+   - Tail number
+   - Priority
+   - Category
+   - Summary
+   - Detailed description
+3. Optional: attach photos.
+4. Submit.
 
-## Track squawks
+*Screenshot: [New squawk form with tail, priority, category, summary, detail, and attachments]*
 
-Use list filters for:
+## Track squawks in the list
 
-- Open vs resolved
+Use filters for:
+
+- Status (open, in progress, deferred, pending parts, closed)
 - Aircraft tail number
-- Search by text/pilot/category
+- Text search (summary/detail/pilot/category)
+- Pagination
 
-## Good reporting practice
+## Work from squawk detail page
 
-- Keep summary short and specific.
-- Include exact symptoms and when they occurred.
-- Add photos for panel warnings, damage, or leaks.
+From a squawk row, open details to:
 
-## Screenshot Slots
+- Add comments
+- Update status
+- Update priority/category
+- Add maintenance notes
+- Upload more photos
 
-- File: `/img/docs/web/web-squawks-step-01-new-squawk-form.webp`
-  Place: below `## Create a squawk`
+*Screenshot: [Squawk detail page with status controls, comments, and maintenance notes]*
+
+:::tip
+Good squawks are short and specific in the summary, detailed in the description, and include photos when possible.
+:::

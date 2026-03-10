@@ -4,32 +4,27 @@ sidebar_position: 4
 
 # Reports (Admin)
 
-The reports area provides operational and trend visibility.
+Use `/dashboard/reports` for trend visibility and exports.
 
-## Available report types
+## Available report views
 
-- Usage snapshot (hours, flights, pilots, airport activity)
-- Utilization by aircraft
-- Oil-added trends by month
-- Squawk trend counts by month
-- Flight log export (CSV)
+- Flight hours trends
+- Aircraft utilization
+- Oil-added trends
+- Squawk trends
+- Activity by airport and pilot
 
 ## Date range controls
 
-- Last 7/30/90 days
-- Custom range
+- Last 7 / 30 / 90 days
+- Custom date range
 
-## Flight Log Export
+## Flight log export
 
-Use **Flight log export** to generate CSV for accounting, reconciliation, or external analysis.
+Use **Flight log export** from reports to download CSV for accounting and reconciliation.
 
-Export includes:
+*Screenshot: [Reports page with trend cards and export actions]*
 
-- Date, pilot, tail
-- Hobbs/Tach start/end
-- Calculated values where available
-
-## Interpretation tips
-
-- Compare utilization and squawk trends by tail number.
-- Track rising oil usage and correlate with maintenance events.
+:::tip
+Pair report trends with maintenance board history to spot recurring aircraft issues earlier.
+:::

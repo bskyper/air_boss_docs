@@ -2,43 +2,65 @@
 sidebar_position: 2
 ---
 
-# Creating Your Account
+# Create Your Air Boss Account
 
-Get started with Air Boss in minutes.
+Use this guide if you are brand new to Air Boss.
 
-## Sign Up
+## What you'll need
 
-1. Download the Air Boss app from the [App Store](https://apps.apple.com/us/app/air-boss-flight-fleet-ops/id6472218943) or [Google Play](https://play.google.com/store/apps/details?id=com.mycompany.airboss&hl=en-US)
-2. Tap **Sign Up**
-3. Enter your email address and create a password
-4. Verify your email address
-5. Complete your pilot profile
+- An email address you can access
+- A secure password
+- Your phone and emergency contact details
+- Your club credentials (if you are joining an existing club)
 
-## Profile Setup
+## Sign up on mobile (iOS/Android)
 
-After signing up, you'll be asked to provide:
+1. Open the app and tap **Sign Up**.
+2. Enter:
+   - Email
+   - Password
+   - Confirm password
+3. Tap **Create Account**.
+4. Choose **Join Existing Club**.
+5. Complete your profile details:
+   - Full name
+   - Email
+   - Password
+   - Phone number
+   - Emergency contact name
+   - Emergency contact phone
+   - Optional profile photo
+6. Enter your **Club Key** and **Club Password**.
+7. Submit.
 
-- **Name** — Your full name as it appears on your pilot certificate
-- **Profile Photo** — Optional, but helps club admins identify you
-- **Contact Info** — Phone number for club communications
+*Screenshot: [Mobile sign-up and profile setup flow]*
 
-## Pilot Documents
-
-You can upload your pilot documents during signup or later:
-
-- Pilot Certificate
-- Medical Certificate
-- Government ID
-- BFR (Biennial Flight Review)
-- Club-specific requirements
-
-:::tip
-Upload clear photos or PDFs of your documents. Club admins will verify them before you can book aircraft.
+:::warning
+Mobile sign-up does not have club search by name. You must use the exact club key and club password from your club admin.
 :::
 
-## Next Steps
+## Sign up on web
 
-After creating your account:
+1. Go to [www.air-boss.club](https://www.air-boss.club) and open **Sign up**.
+2. Enter your account details:
+   - Full name
+   - Email
+   - Password and confirm password
+   - Phone number
+   - Emergency contact name and phone
+   - Optional profile photo
+3. Submit sign-up.
+4. Follow the next screen to **Create a new club** or **Join an existing club**.
 
-- [Join an existing club](/getting-started/join-club) using your club key and club password
-- [Create a new club](/admin/create-club) on the website (if you're a club admin)
+*Screenshot: [Web sign-up form with contact and emergency fields]*
+
+## After sign-up
+
+- If your club requires manual approval, you are sent to a **Pending Approval** screen.
+- You may need to verify your email before full access.
+
+## Next step
+
+- [Join a Club](/getting-started/join-club)
+- [Create a Club](/admin/create-club)
+- [Accept an Invite Link](/getting-started/invite-link)

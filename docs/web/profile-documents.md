@@ -2,82 +2,52 @@
 sidebar_position: 6
 ---
 
-# Profile and Documents (Web Pilot)
+# Manage Profile, Documents, and Password (Web)
 
-The **Profile** page includes account info, pilot ratings, and document compliance.
+Profile and documents are separate pages in the web pilot workspace.
 
-## Profile fields
-
-- Name and contact details
-- Emergency contact
-- Profile photo
-- Pilot ratings/certifications
-
-## Update Profile Workflow
+## Update your profile
 
 1. Open **Profile**.
-2. Update contact/emergency fields and pilot ratings.
-3. Save changes.
-4. Refresh to confirm persisted values.
+2. Update:
+   - Name
+   - Phone
+   - Emergency contact name/phone
+   - Profile photo
+   - Pilot ratings
+3. Save.
 
-Expected result:
+*Screenshot: [Profile page with contact fields, ratings, and save button]*
 
-- Updated values appear in profile immediately.
-- Admin/member views use updated contact and qualification data.
+## Send password reset email
 
-## Document management
+1. Open **Profile**.
+2. Use the password reset action.
+3. Check email for the reset link.
 
-Per document, you can manage:
+The reset link directs to the web reset-password flow.
 
-- File upload/update
-- Expiration date
-- Verification status visibility
+## Upload and track documents
 
-The page surfaces required document count based on active club requirements.
+1. Open **Documents**.
+2. Review your status dashboard (approved, pending, expiring, missing).
+3. For each required document:
+   - Upload file
+   - Set expiration date (if required)
+   - Save
+4. Check member-visible admin feedback if changes are requested.
 
-## Document Upload Workflow
+*Screenshot: [Documents page with status dashboard and per-document upload cards]*
 
-1. Open **Profile** and scroll to documents.
-2. Select required document row.
-3. Upload file and set expiration date if applicable.
-4. Save the document update.
-5. Confirm status indicators changed.
+## File rules
 
-Recommended naming:
+- Supported types: `PDF`, `PNG`, `JPG`, `JPEG`, `HEIC`
+- Maximum size: `10 MB` per file
 
-- Use clear file names with doc type and expiry year.
-- Replace outdated files instead of duplicating near-identical uploads.
+:::warning
+Document requirements are tied to your active club. If requirements look different than expected, confirm the selected club.
+:::
 
-## Password reset
+## Related
 
-You can trigger a reset email from profile. The reset link uses the web reset-password route.
-
-## Club context
-
-Document requirements and compliance indicators depend on the selected active club.
-
-## If Something Fails
-
-### Upload fails
-
-- Retry with smaller file size.
-- Confirm supported file type.
-- Refresh page and retry upload.
-
-### Expiration date does not update
-
-- Save after setting date (date changes are not always auto-saved).
-- Confirm active club context is correct.
-
-### Reset email not received
-
-- Check spam/junk first.
-- Verify account email in profile.
-- Trigger reset again after a short wait.
-
-## Screenshot Slots
-
-- File: `/img/docs/web/web-profile-documents-step-01-profile-form.webp`
-  Place: below `## Update Profile Workflow`
-- File: `/img/docs/web/web-profile-documents-step-02-upload-document.webp`
-  Place: below `## Document Upload Workflow`
+- [Notification Preferences](/web/notification-preferences)

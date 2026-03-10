@@ -4,36 +4,84 @@ sidebar_position: 6
 
 # Profile, Documents, and Security (Mobile)
 
-Use the **Pilot** area to manage personal data, documents, and account security.
+Use the **Pilot** area for account settings, documents, and security controls.
 
-## Profile Management
+## Update your profile
 
-- Edit display name, phone, emergency contact, and profile photo.
-- Update pilot ratings and qualifications.
+1. Open **Pilot**.
+2. Tap **Edit Profile**.
+3. Update contact details, emergency contact, or photo.
+4. Save.
 
-## Pilot Documents
+*Screenshot: [Edit Profile screen with contact and emergency fields]*
 
-You can upload and manage pilot documents, including expirations and verification status indicators.
+## Manage documents and certificates
 
-Typical required documents:
+1. Open **Pilot**.
+2. Tap **Documents & Certificates**.
+3. Upload or replace files.
+4. Set expiration dates where required.
+5. Save changes.
 
-- License
-- Medical
-- BFR / flight review
-- Club-defined custom requirements
+The app shows status such as **Approved**, **Pending Review**, **Under Review**, **Expired**, or **Missing**.
 
-## Security
+*Screenshot: [Documents and Certificates list with status chips and upload actions]*
 
-- Change password
-- Enable/disable biometric sign-in (device-dependent)
+:::tip
+Accepted upload formats on mobile are PDF and common image formats shown in the picker.
+:::
+
+## Change your password
+
+1. Open **Pilot**.
+2. Tap **Edit Profile**.
+3. Tap **Change Password**.
+4. Enter current password, new password, and confirm.
+5. Save.
+
+## Enable biometric login
+
+1. Open **Pilot**.
+2. Tap **Biometric Settings**.
+3. Authenticate and enable biometric login.
+4. Next time at login, use the Face ID/Touch ID/fingerprint button.
+
+If biometrics are available but not enabled, login screen guidance points you to this setup path.
+
+## Set notification preferences
+
+1. Open **Pilot**.
+2. Tap **Notification Preferences**.
+3. Toggle push/email options by category:
+   - Squawks
+   - Grounded aircraft
+   - Documents
+   - Reservations
+   - Announcements
+
+## Change app theme
+
+1. Open **Pilot**.
+2. Tap **Theme Settings**.
+3. Choose **Light**, **Dark**, or **System Default**.
+
+## Generate a flight hours report
+
+1. Open **Hangar** for your active club.
+2. Tap **Monthly Reporting**.
+3. Pick start and end dates.
+4. Tap **Generate Report**.
+5. Optional: tap **Generate CSV**.
+
+*Screenshot: [Flight Hours Report screen with date range and CSV export]*
+
+## Account actions
+
+From **Pilot** you can:
+
 - Sign out
-- Request account deletion
+- Delete account
 
-## My Clubs
-
-From profile, open **My Clubs** to view membership context and club access state.
-
-## Screenshot Slots
-
-- File: `/img/docs/mobile/mobile-profile-security-step-01-documents-section.webp`
-  Place: below `## Pilot Documents`
+:::warning
+Document rules and approval status are club-specific. Switching clubs can change what you see as required or approved.
+:::
