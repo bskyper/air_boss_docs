@@ -2,113 +2,51 @@
 sidebar_position: 2
 ---
 
-# Scheduling & Reservations (Web)
+# Book Aircraft on the Web
 
-Book aircraft and manage reservations from the web app.
+Use **Schedule** in the pilot workspace to create, edit, and cancel reservations.
 
-## Before You Start
+## What you'll need
 
-- Confirm the active club in the top selector.
-- Verify aircraft status and existing holds.
-- Use week view for conflict-heavy time ranges.
+- Active club selected
+- Approved membership
+- Aircraft access
 
-## Booking an Aircraft
+## Create a reservation
 
-This walkthrough follows the web booking flow from the calendar.
+1. Open **Schedule**.
+2. Pick **Week** or **Month** view.
+3. Navigate with **Previous / Today / Next**.
+4. In the reservation form, choose:
+   - Aircraft
+   - Start date/time
+   - End date/time
+   - Purpose (optional)
+5. Save.
 
-### Step-by-step walkthrough
+*Screenshot: [Schedule page with timeline/calendar and New reservation form]*
 
-1. Open **Schedule** from the left navigation.
-   - You’ll see a full calendar view with aircraft rows and time columns.
-2. Navigate to the date you want.
-   - Use the **month/week/day** controls.
-   - Click **Today** to jump back to the current date.
-3. Start a booking.
-   - Click an **empty slot** on the calendar, or
-   - Click **Book Aircraft** in the top right.
-4. Select an aircraft.
-   - A modal opens with the fleet list and availability.
-   - Click the aircraft row you want to book.
-5. Set the time.
-   - Choose **start** and **end** times from the time picker.
-   - The calendar highlights the selected block.
-6. Add details.
-   - **Destination** (airport code)
-   - **Purpose/notes** (training, currency, cross-country, etc.)
-7. Confirm.
-   - Review aircraft, date, time, and notes.
-   - Click **Confirm Booking**.
+## Editing and canceling
 
-### Calendar view navigation
+1. Select one of your future reservation blocks.
+2. Edit details or cancel.
+3. Save changes.
 
-- **Day view**: Best for short, precise bookings.
-- **Week view**: See multiple days of availability at once.
-- **Month view**: Jump to a date before switching to day/week.
-- Scroll vertically to see more aircraft, horizontally to see later times.
+Only your future reservations are editable from pilot workspace.
 
-### Clicking to book
+## Maintenance overlap warnings
 
-- Click a blank time cell to prefill that date/time.
-- Drag across time cells (if enabled) to select a block.
-- Clicking a booked slot opens the reservation details instead of booking.
+If your booking overlaps maintenance, Air Boss shows a warning and asks for acknowledgment before saving.
 
-### Editing or canceling an existing reservation
+## Time behavior
 
-1. Click your reservation block.
-2. Choose **Edit** or **Cancel**.
-3. Save changes or confirm cancellation.
+- Time choices are on 30-minute intervals.
+- Past times are filtered out for the current day.
 
-Expected result:
+## Aircraft filtering
 
-- Timeline updates immediately.
-- Team members see the new block state.
-
-### Form fields
-
-- **Aircraft**: Select from the fleet list.
-- **Date**: Defaults to the calendar day you clicked.
-- **Start time / End time**: Validates conflicts and minimum durations.
-- **Destination**: Optional but helpful for planning.
-- **Notes**: Optional; visible to instructors/dispatch.
-
-### Confirmation
-
-- A confirmation banner appears after saving.
-- The reservation is added to the calendar immediately.
-- You’ll receive a notification (and email, if enabled).
-
-## Troubleshooting
-
-### Slot is visible but booking fails
-
-- Refresh the page and try again.
-- Check if another user created a reservation moments earlier.
-- Check club booking rules (duration/window/approval).
-- Check if aircraft is in maintenance state.
-
-### Cannot edit reservation
-
-- You can generally edit only your own pilot reservation in pilot workspace.
-- If block ownership or role is the issue, contact admin.
-
-### Wrong club data appears
-
-- Switch active club from the header selector.
-- Reload schedule after switching club.
-
-## Screenshot Slots
-
-- File: `/img/docs/web/web-scheduling-step-01-week-view.webp`
-  Place: below `### Calendar view navigation`
-- File: `/img/docs/web/web-scheduling-step-02-new-reservation-form.webp`
-  Place: below `### Form fields`
-- File: `/img/docs/web/web-scheduling-step-03-edit-reservation.webp`
-  Place: below `### Editing or canceling an existing reservation`
+Use the aircraft legend to focus on selected tails when scanning conflicts.
 
 :::tip
-Use the week view when comparing multiple aircraft for the same time window.
-:::
-
-:::tip
-If your booking is for training, include the instructor name in notes for faster approval.
+Week view is best for dispatch-level conflict checks. Month view is best for date planning.
 :::

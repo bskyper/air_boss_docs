@@ -2,73 +2,59 @@
 sidebar_position: 2
 ---
 
-# Creating a Club
+# Create a Club (Admin)
 
-Start a new flight club on Air Boss.
+Create a new flight club from the web onboarding flow.
 
-## Where to Create a Club
+## What you'll need
 
-New club setup is done on the **website** only.
+- A signed-in Air Boss account
+- Club name
+- Home airport code
+- Club access credentials (or choose generated credentials)
+- Optional club logo
 
-- Open [www.air-boss.club](https://www.air-boss.club)
-- Sign in and use the create-club flow from the web onboarding path
+## Create the club (web)
 
-## Before You Begin
+1. Go to [www.air-boss.club](https://www.air-boss.club).
+2. Sign in and choose **Create a new club**.
+3. Enter:
+   - Club name
+   - Home airport code
+   - Club key
+   - Club password
+   - Optional logo
+4. Submit.
 
-You'll need:
-- An Air Boss account
-- Your club's basic information
-- (Optional) Club logo image
+*Screenshot: [Create club form with name, airport, credentials, and logo]*
 
-## Create Your Club
+## What happens automatically
 
-1. Log in at [www.air-boss.club](https://www.air-boss.club)
-2. Choose **Create a new club**
-3. Enter your club details:
-   - **Club Name** — Your official club name
-   - **Home Airport** — Primary airport code (recommended)
-   - **Club Key / Club Password** — Access credentials for member join flow
-   - **Logo** — Upload your club logo (optional)
+After creation, Air Boss sets up:
 
-4. Tap **Create Club**
+- Your club record
+- Your admin membership in that club
+- A billing subscription record and trial state
+- Optional Stripe customer/subscription setup (if configured)
 
-You'll automatically become the club admin.
+## Mobile create-club wizard (when enabled)
 
-## Initial Setup
+Some mobile builds include a 4-step create-club flow:
 
-After creating your club, set up:
+1. **Club Information**
+2. **Location Details** (home airport and optional gate code)
+3. **Club Access Credentials** (auto-generate or custom)
+4. **Review & Create**
 
-### 1. Required Documents
+If this option is not shown in your mobile app, use the web flow above.
 
-Configure which pilot documents your club requires:
-- Pilot Certificate
-- Medical Certificate
-- Government ID
-- BFR (Biennial Flight Review)
-- Insurance
-- Custom requirements
+## Immediate post-setup checklist
 
-### 2. Add Aircraft
+1. Open **Club Management > General** and verify club details.
+2. Open **Club Management > Documents** and define required pilot documents.
+3. Open **Aircraft** and add your fleet.
+4. Invite pilots from **Invitations** or share club key/password securely.
 
-Add your fleet:
-1. Go to **Aircraft** → **Add Aircraft**
-2. Enter aircraft details (tail number, make/model, etc.)
-3. Upload photos
-4. Set initial Hobbs/Tach readings
-
-### 3. Invite Members
-
-Share your club with pilots:
-- Share your **club key**
-- Share your **club password** securely
-
-## Club Settings
-
-Access club settings to configure:
-- Booking rules and restrictions
-- Notification preferences
-- Billing settings (if applicable)
-
-## Need Help?
-
-Contact support if you need assistance setting up your club.
+:::warning
+Treat club password like a shared secret. If it leaks, rotate it in Club Management and re-communicate only to trusted members.
+:::

@@ -2,23 +2,33 @@
 sidebar_position: 4
 ---
 
-# Aircraft (Web Pilot)
+# Check Aircraft Details (Web)
 
-The pilot **Aircraft** page is read-oriented and optimized for preflight planning.
+Use **Aircraft** in the pilot web workspace for preflight reference.
 
-## What you can view
+## What you'll see
 
-- Tail number and aircraft status
-- Make/model and photos
-- Maintenance warning chips (due/overdue indicators)
-- Billing method/rate metadata
-- Linked documents (POH, W&B, cheat sheet)
+Each aircraft card shows:
 
-## What members can edit
+- Tail number
+- Aircraft status (airworthy/grounded/reserved style labels)
+- Make/model
+- Billing method and rate
+- Maintenance warning chips (due soon/overdue)
+- Quick document links (POH, Weight & Balance, Cheat Sheet)
 
-Pilot users generally cannot change aircraft master data. Contact admins for updates.
+*Screenshot: [Aircraft cards with status chips, maintenance warnings, and doc buttons]*
 
-## Role notes
+## Preflight review workflow
 
-- Member: read-only operational reference
-- Admin: full aircraft management lives in admin workspace (`/dashboard/aircraft`)
+1. Open **Aircraft**.
+2. Select the tail number.
+3. Review status and maintenance chips.
+4. Open reference docs as needed.
+5. Return to **Schedule** to book.
+
+## Permissions
+
+Pilot workspace aircraft is read-only.
+
+If aircraft data is wrong, contact an admin or use the admin **Aircraft** section.

@@ -2,37 +2,47 @@
 sidebar_position: 4
 ---
 
-# Maintenance and Squawks (Admin)
+# Maintenance and Squawk Board
 
-Use admin **Maintenance** to triage and close squawk workflows.
+Use `/dashboard/maintenance` for club-wide maintenance triage.
 
-## Board structure
+## Board layout
 
-Squawks are grouped by status lanes (reported/open/in-progress/resolved style states).
+Squawks are grouped by status lanes:
 
-Each card typically includes:
+- Open
+- In Progress
+- Deferred
+- Pending Parts
+- Closed
 
-- Squawk number and summary
-- Tail number and club context
-- Priority/category
-- Reporter and timestamps
-- Comments and photo attachments (if provided)
+Each card shows summary, tail, priority, category, pilot, timestamps, and recent comment context.
 
-## Admin workflow
+*Screenshot: [Maintenance board with status lanes and squawk cards]*
 
-1. Filter to open and high-priority items.
-2. Confirm aircraft impact and grounding needs.
-3. Add internal updates/comments.
-4. Move to resolved/closed when complete.
-5. Verify operational status before returning aircraft to service.
+## Common admin workflow
 
-## Best practices
+1. Filter/search for urgent items.
+2. Open squawk detail.
+3. Update status, priority, and category.
+4. Add comments and maintenance notes.
+5. Upload supporting photos.
+6. Add resolution notes and close when complete.
 
-- Treat grounded/critical items as same-day priorities.
-- Keep comment history concise and actionable.
-- Link maintenance scheduling blocks to major squawks to prevent booking overlap.
+## Create a squawk from admin board
 
-## Screenshot Slots
+Use **Create Squawk** in the board toolbar to log maintenance work directly.
 
-- File: `/img/docs/admin/admin-maintenance-step-01-squawk-board.webp`
-  Place: below `## Board structure`
+## Detail page actions
+
+In `/dashboard/maintenance/[id]`, admins can:
+
+- Post comments
+- Post maintenance notes
+- Set status and resolution
+- Edit priority/category
+- Upload additional photos
+
+:::warning
+Only close a squawk after corrective action is complete and dispatch impact is understood.
+:::

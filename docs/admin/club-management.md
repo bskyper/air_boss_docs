@@ -4,22 +4,45 @@ sidebar_position: 6
 
 # Club Management (Admin)
 
-Use this area to maintain core club configuration.
+Use Club Management to configure how your club operates.
 
-## Common tasks
+## Main sections
 
-- Update club profile (name, logo, home airport)
-- Manage club credentials for join flow
-- Review required documents policy
-- Maintain maintenance/settings metadata
-- Update billing contact metadata
+- **General** (`/dashboard/clubs/general`)
+- **Documents** (`/dashboard/clubs/documents`)
+- **Maintenance** (`/dashboard/clubs/maintenance`)
+- **Billing** (`/dashboard/clubs/billing`, currently coming soon)
 
-## Access model
+## Update general club settings
 
-Only authorized admin roles can change club-level configuration.
+In **General** you can manage:
 
-## Change control guidance
+- Club name
+- Home airport
+- Club logo
+- Club key and club password
+- Gate code and billing contact details
 
-- Make one change set at a time.
-- Communicate policy changes (required docs, operational rules) through Messaging.
-- Validate changes in pilot workspace after save.
+*Screenshot: [Club General settings screen with identity and credential fields]*
+
+## Manage required member documents
+
+In **Documents**:
+
+1. Add or enable required document types.
+2. Mark required vs optional.
+3. Set display order and active status.
+
+These requirements drive what members must upload.
+
+## Configure maintenance policies
+
+In **Maintenance**:
+
+- Set tracking rules
+- Configure alert thresholds
+- Define maintenance settings used across aircraft workflows
+
+:::warning
+Changing club key/password impacts onboarding immediately. Re-share credentials securely and only with intended members.
+:::

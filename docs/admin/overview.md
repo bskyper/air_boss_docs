@@ -4,68 +4,35 @@ sidebar_position: 1
 
 # Admin Guide
 
-Learn how to manage your flight club with Air Boss.
+This section covers the web admin workspace (`/dashboard`).
 
-## Admin vs Member
+## What admins manage
 
-| Feature | Member | Admin |
-|---------|--------|-------|
-| View aircraft | ✅ | ✅ |
-| Book aircraft | ✅ | ✅ |
-| Log flights | ✅ | ✅ |
-| Report squawks | ✅ | ✅ |
-| Add/edit aircraft | ❌ | ✅ |
-| Approve members | ❌ | ✅ |
-| Verify documents | ❌ | ✅ |
-| Manage member status | ❌ | ✅ |
-| Edit club settings | ❌ | ✅ |
+- Reservations and schedule control
+- Aircraft records and maintenance intervals
+- Member approvals, roles, and membership status
+- Document compliance and review actions
+- Pilot invitations
+- Club settings (general, required docs, maintenance rules)
+- Billing and subscription state
 
-## Admin Responsibilities
+## Recommended daily checklist
 
-As a club admin, you can:
+1. Review pending members.
+2. Check document review queue.
+3. Scan open/high-priority squawks.
+4. Verify aircraft status and maintenance impacts.
+5. Send a broadcast if operations changed.
 
-### Member Management
-- Approve or deny membership requests
-- Verify pilot documents (certificates, medical, BFR)
-- Activate or deactivate members
-- Promote members to admin role
-
-### Aircraft Management
-- Add new aircraft to the fleet
-- Update aircraft details and photos
-- Track Hobbs/Tach times
-- Manage maintenance schedules
-- Close out squawks
-
-### Club Settings
-- Set required pilot documents
-- Configure booking rules
-- Manage club information
-
-### Communications
-- Send club-wide broadcasts
-- Post updates to the comms feed
-
-### Billing & Reporting
-- Manage subscription and billing status
-- Export and review operational reports
-
-## Best Practices
-
-1. **Verify documents promptly** — Pilots can't book until verified
-2. **Keep aircraft info current** — Update Hobbs/Tach after maintenance
-3. **Monitor squawks** — Address safety issues quickly
-4. **Communicate with members** — Use club announcements for updates
-
-## Next Guides
+## Key guides
 
 - [Reservations Control](/admin/reservations)
 - [Aircraft Management](/admin/aircraft)
-- [Maintenance and Squawks](/admin/maintenance)
-- [Flight Log Entry](/admin/flight-log-entry)
 - [Users and Membership](/admin/users-membership)
+- [Document Review](/admin/document-review)
+- [Invitations](/admin/invitations)
+- [Maintenance and Squawks](/admin/maintenance)
 - [Messaging](/admin/messaging)
-- [Reports](/admin/reports)
 - [Billing](/admin/billing)
 - [Club Management](/admin/club-management)
-- [Creating a Club](/admin/create-club)
+- [Create a Club](/admin/create-club)

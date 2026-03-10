@@ -2,31 +2,40 @@
 sidebar_position: 5
 ---
 
-# Comms Feed (Mobile)
+# Comms and Club Messaging (Mobile)
 
-The **Comms** tab shows club activity in a timeline view.
+Comms is your club activity and announcement stream.
+
+## Open Comms
+
+1. Tap **Comms** in the bottom navigation.
+2. Pull down or tap **Refresh Feed** to reload.
+
+*Screenshot: [Comms feed with activity rows and refresh action]*
 
 ## What appears in Comms
 
-- Reservations created/canceled
+- Reservation activity (created/canceled)
 - Flight activity
-- Maintenance and squawk-related events
-- Club broadcasts
+- Squawk and maintenance updates
+- Club broadcast messages
 
-## Refreshing and Read State
+## Read/unread behavior
 
-- Pull to refresh or tap refresh in the app bar.
-- Opening Comms marks unread club broadcast notifications as read for your active club.
+Opening Comms marks unread club broadcasts as read for your active club.
 
-## Admin Messaging
+## Send a club-wide message (admins)
 
-Admins can send club-wide messages from club admin tools. Depending on settings, messages can:
+1. Go to **Hangar**.
+2. Open your club actions and tap **Messaging**.
+3. Enter message title (optional) and body.
+4. Choose delivery channels:
+   - Push notification
+   - Post to Comms feed
+5. Send.
 
-- Send as push notifications
-- Post to Comms feed
-- Do both
+*Screenshot: [Admin message screen with push/feed channel toggles]*
 
-## Screenshot Slots
-
-- File: `/img/docs/mobile/mobile-comms-step-01-feed-overview.webp`
-  Place: below `## What appears in Comms`
+:::warning
+Always verify the active club before sending a broadcast.
+:::

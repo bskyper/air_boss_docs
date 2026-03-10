@@ -2,179 +2,86 @@
 sidebar_position: 2
 ---
 
-# Scheduling & Reservations
+# Book and Manage Aircraft (Mobile)
 
-Book aircraft and manage your reservations.
+Use the reservation calendar to book aircraft, edit your bookings, and watch other reservations.
 
-## Before You Book
+## What you'll need
 
-- Confirm your active club is correct.
-- Verify your documents are current and approved.
-- Check aircraft status for maintenance or grounding before selecting times.
+- Active club selected
+- Approved membership (not pending)
+- Aircraft access in your club
 
-## Viewing the Schedule
+## Open the reservation calendar
 
-1. Tap the **Schedule** tab in the bottom navigation
-2. Select a date from the calendar
-3. View all reservations for that day
+1. Tap **Fleet**.
+2. Select the aircraft you want.
+3. Tap **Reserve**.
 
-The schedule shows:
-- Aircraft tail number
-- Pilot name
-- Reservation time
-- Flight status
+*Screenshot: [Fleet aircraft card with Reserve button]*
 
-## Booking an Aircraft
+## Understand calendar views and filters
 
-This flow walks you through selecting an aircraft, choosing a time, and confirming your reservation.
+The calendar supports:
 
-### Step-by-step walkthrough
+- **Month** view
+- **Week** view
+- **Day** view
+- Optional **Fleet mode** (club-wide aircraft view)
 
-1. Tap **Schedule** in the bottom navigation.
-   - You’ll see a calendar at the top and a list of reservations below.
-2. Start a booking:
-   - Tap **Book Aircraft**, or
-   - Tap an empty time slot on the schedule.
-3. Select an aircraft from the fleet.
-   - You’ll see tail numbers, aircraft type, and availability.
-   - Tap the aircraft you want to fly to continue.
-4. Choose your date and time.
-   - Pick the **date** from the calendar.
-   - Select a **start time** and **end time** from the available slots.
-5. Add optional details.
-   - **Destination** (e.g., KSQL, KPAO)
-   - **Purpose/notes** (e.g., “Night currency,” “Student solo”)
-6. Review and confirm.
-   - Verify aircraft, date, time, and notes.
-   - Tap **Confirm Booking** to finalize.
+When Fleet mode is on, you can filter which aircraft appear.
 
-### Selecting aircraft from the fleet
+*Screenshot: [Calendar with Month/Week/Day and Fleet filters]*
 
-- Filter or scroll to find the right aircraft.
-- Tap the aircraft card to see its details and availability.
-- If an aircraft is unavailable, it will be marked or hidden based on your club’s settings.
+## Create a reservation
 
-### Choosing date and time slots
+1. Tap **Create Reservation** (or tap an open slot).
+2. Choose start and end date/time.
+3. Add optional flight description.
+4. In Fleet mode, select the aircraft.
+5. Submit.
 
-- The calendar highlights the selected day.
-- Available slots show as open; unavailable slots are blocked.
-- For longer flights, choose a start time first, then extend the end time.
+*Screenshot: [Create Reservation bottom sheet with date/time and description]*
 
-### Adding notes or destination
+## Validation rules you will see
 
-- Use notes to share key details with instructors or dispatch.
-- Include destination identifiers to help the club plan.
+Air Boss enforces:
 
-### Confirming the booking
+- Start/end must be on **30-minute increments**
+- End must be after start
+- Conflict checks include a **30-minute buffer**
 
-- Double-check:
-  - Aircraft tail number
-  - Date and time
-  - Notes/destination
-- Tap **Confirm Booking** to reserve the aircraft.
+If your time overlaps maintenance, you get a warning and can choose **Schedule Anyway**.
 
-### What happens after booking
-
-- A confirmation screen appears with your reservation details.
-- The reservation shows up on your schedule immediately.
-- You’ll receive a notification (and email, if enabled) with the booking summary.
-
-## Editing an Existing Reservation
-
-1. Open the reservation from schedule.
-2. Tap edit/update.
-3. Adjust date/time and notes.
-4. Save changes.
-
-Expected result:
-
-- Reservation block updates immediately.
-- Other pilots see the updated block.
-
-:::tip
-Book in advance! Popular aircraft fill up quickly, especially on weekends.
+:::warning
+A maintenance overlap warning means the aircraft may not be available even if you continue.
 :::
 
-:::tip
-Add a clear destination and purpose to reduce back-and-forth with instructors or dispatch.
-:::
+## Edit or cancel your reservation
 
-## Start Flight Flow
+1. Tap your reservation in the list.
+2. Choose **Edit** or **Cancel**.
+3. Confirm.
 
-When it's time for your flight:
+Admins can also edit/cancel maintenance reservations.
 
-1. Open your reservation
-2. Tap **Start Flight**
-3. Record the starting Hobbs and Tach times
-4. Complete any required preflight steps prompted by your club workflow
-5. You're cleared to fly! ✈️
+## Add reservation to your personal calendar
 
-## Completing a Flight
+From a reservation row, tap the calendar action to add it to your device calendar.
 
-After landing:
+## Watchlist for other reservations
 
-1. Open your active flight
-2. Tap **End Flight**
-3. Enter ending Hobbs and Tach times
-4. Add any notes or squawks
-5. Submit your flight log
+For reservations that are not yours, a bell icon lets you add/remove watchlist tracking.
 
-## Canceling a Reservation
+## Common issues
 
-Need to cancel?
+### "I cannot book even though I see an open slot"
 
-1. Open your reservation
-2. Tap **Cancel Reservation**
-3. Confirm cancellation
+- Recheck active club
+- Confirm your membership is approved
+- Try another 30-minute time boundary
+- Check for hidden maintenance overlap
 
-:::note
-Please cancel as early as possible so other pilots can book the aircraft.
-:::
+### "I can’t switch to Month view"
 
-## Conflict and Rule Handling
-
-When booking fails, common causes are:
-
-- Existing reservation conflict
-- Aircraft maintenance hold
-- Maximum duration exceeded
-- Booking window not yet open
-- Required documents not verified
-
-## If Something Fails
-
-### I cannot book even though time looks open
-
-- Pull to refresh schedule and retry.
-- Check if maintenance hold exists on that aircraft.
-- Verify your profile documents and club approval status.
-
-### My booking disappeared
-
-- Confirm active club did not switch.
-- Check if reservation was canceled or modified by admin.
-- Re-open schedule in day and week views to verify date/time.
-
-### I booked the wrong time or aircraft
-
-- Edit or cancel immediately.
-- Add a brief note if other members were affected.
-
-## Reservation Rules
-
-Your club may have rules about:
-- How far in advance you can book
-- Maximum reservation duration
-- Minimum rest time between flights
-- Checkout requirements
-
-Contact your club admin for specific policies.
-
-## Screenshot Slots
-
-- File: `/img/docs/mobile/mobile-scheduling-step-01-open-schedule.webp`
-  Place: below `## Viewing the Schedule`
-- File: `/img/docs/mobile/mobile-scheduling-step-02-select-aircraft-time.webp`
-  Place: below `### Step-by-step walkthrough`
-- File: `/img/docs/mobile/mobile-scheduling-step-03-confirm-booking.webp`
-  Place: below `### What happens after booking`
+Month view and Fleet mode cannot run together. Turn Fleet mode off first.

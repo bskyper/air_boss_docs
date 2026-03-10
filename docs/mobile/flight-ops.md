@@ -2,95 +2,72 @@
 sidebar_position: 4
 ---
 
-# Flight Operations (Mobile)
+# Start and End Flights (Mobile)
 
-This guide covers the in-app flow to start and complete flights.
+Use this flow when you are ready to depart and after landing.
 
-## Before You Start
+## What you'll need
 
-- Make sure you are in the correct active club.
-- Confirm you are using the correct aircraft and reservation.
-- Have panel values ready before submitting:
-  - Hobbs
-  - Tach
-  - Oil values
-  - Landing count (if required by aircraft settings)
+- Correct aircraft selected
+- Current panel readings (Hobbs/Tach)
+- Oil values
+- Landing count (for aircraft that require it)
 
-## Start a Flight
+## Start a flight
 
-1. Open your reservation card or aircraft detail page.
-2. Tap **Start Flight**.
-3. Verify aircraft and tail number in the header before entering values.
-4. Enter start values:
-   - Hobbs start (if tracked for the aircraft)
+1. Open the start-flight flow for your aircraft/reservation.
+2. Review the prefilled starting values.
+3. If needed, check **Starting times are incorrect** to manually correct start values.
+4. Enter:
+   - Hobbs start (shown when billing config requires it)
    - Tach start
-   - Starting oil and oil added
-5. Optional:
-   - Mark **time discrepancy** if panel values needed manual correction
-   - Mark **maintenance flight** for MX reposition/maintenance ops
-6. Tap submit to start the active flight.
+   - Starting oil level
+   - Optional oil added
+5. Optional: mark **Maintenance flight**.
+6. Submit.
 
-Expected result:
+*Screenshot: [Start flight form with discrepancy and maintenance toggles]*
 
-- Active flight banner appears in the app.
-- Reservation and aircraft status reflect in-progress flight.
+:::tip
+For tach-billed aircraft, Hobbs may be hidden unless the aircraft is configured to track both times.
+:::
 
-## Complete a Flight
+## End a flight
 
-1. Open active flight from banner or reservation.
-2. Tap **End Flight**.
-3. Enter end values:
-   - Hobbs end (if tracked)
+1. Open the active flight and tap **End Flight**.
+2. Enter ending values:
+   - Hobbs end (if shown)
    - Tach end
-   - Landing count (for aircraft configured to track landings)
-4. Add squawk details if maintenance or safety issues were discovered.
-5. Submit to close the flight log.
+   - Landings (if required by aircraft settings)
+3. Optional: log a squawk during closeout.
+4. Submit.
 
-Expected result:
+*Screenshot: [End flight form with Hobbs/Tach, landings, and squawk button]*
 
-- Active flight is removed from the banner.
-- Log is written to flight history.
-- Related aircraft values are updated.
+## If this was a maintenance flight
 
-## Maintenance Flight Behavior
+After completion, Air Boss can prompt:
 
-If a flight is marked as maintenance, the app can prompt you to immediately log a separate personal flight after completion.
+- **Log Personal Flight** (start a new personal log right away), or
+- **Done**
 
-Recommended use:
+## Flight summary feedback
 
-- Use maintenance flag only for repositioning, test, or maintenance-required operations.
-- Do not use maintenance flag for normal pilot-time flights.
+Before submitting end values, the screen shows live estimates:
 
-## Common Validation Rules
+- Calculated flight time
+- Estimated cost
 
-- End times must be greater than or equal to start times.
-- Required fields vary by aircraft billing/tracking setup.
-- Landing count may be required for specific aircraft settings.
+## Common errors
 
-## If Something Fails
+### "End value must be greater than start"
 
-### Start flight submit fails
+Recheck Hobbs/Tach end values.
 
-- Confirm required fields are filled.
-- Confirm you still have reservation access.
-- Retry after refreshing aircraft/reservation screen.
+### "Landing count required"
 
-### End flight submit fails
+That aircraft is configured to require landings for completion.
 
-- Re-check meter values for numeric format.
-- Confirm end values are not lower than start values.
-- If landing count is required, ensure it is present and numeric.
+### "Wrong starting numbers were used"
 
-### Wrong values were entered
-
-- Immediately notify club admin.
-- Include flight ID, tail number, and corrected values for reconciliation.
-
-## Screenshot Slots
-
-- File: `/img/docs/mobile/mobile-flight-ops-step-01-start-flight-form.webp`
-  Place: below `## Start a Flight`
-- File: `/img/docs/mobile/mobile-flight-ops-step-02-active-flight-banner.webp`
-  Place: below `Expected result:` in `## Start a Flight`
-- File: `/img/docs/mobile/mobile-flight-ops-step-03-end-flight-form.webp`
-  Place: below `## Complete a Flight`
+Use the **Starting times are incorrect** option at flight start so discrepancy values are captured in the log.

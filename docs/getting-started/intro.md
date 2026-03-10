@@ -5,26 +5,14 @@ slug: /
 
 # Welcome to Air Boss
 
-Air Boss is a modern flight club management platform that helps aviation clubs manage their aircraft, members, scheduling, and flight operations.
+Air Boss helps flight clubs run day-to-day operations from one place: scheduling, flights, squawks, documents, and member approvals.
 
-## What is Air Boss?
+## Choose your workspace
 
-Air Boss provides tools for:
+- **Mobile app (iOS/Android):** best for day-to-day flying tasks in the field
+- **Web app:** best for detailed data entry, document uploads, and admin work
 
-- **Aircraft Management** — Track your fleet, maintenance, squawks, and airworthiness directives
-- **Member Management** — Manage pilots, their certifications, and document compliance
-- **Flight Scheduling** — Book aircraft, avoid conflicts, and track reservations
-- **Flight Logging** — Record flights with Hobbs/Tach times and billing integration
-- **Squawk Tracking** — Report and resolve aircraft issues
-
-## Getting Started
-
-Choose your platform to get started:
-
-- [📱 Mobile App (iOS/Android)](/mobile/overview)
-- [💻 Web App](/web/overview)
-
-## Download the App
+## Download the mobile app
 
 <div className="download-buttons">
   <a href="https://apps.apple.com/us/app/air-boss-flight-fleet-ops/id6472218943" target="_blank">
@@ -35,12 +23,26 @@ Choose your platform to get started:
   </a>
 </div>
 
-## Quick Links
+## Quick Start Paths
 
-| I want to... | Go to... |
-|--------------|----------|
-| Create an account | [Sign Up Guide](/getting-started/signup) |
-| Join a club | [Joining a Club](/getting-started/join-club) |
-| Create a new club (web only) | [Creating a Club](/admin/create-club) |
-| Book an aircraft | [Scheduling](/mobile/scheduling) |
-| Log a flight | [Scheduling](/mobile/scheduling#completing-a-flight) |
+| I want to... | Start here |
+|--------------|------------|
+| Create my account | [Sign Up](/getting-started/signup) |
+| Join my club | [Join a Club](/getting-started/join-club) |
+| Join from an email invite link | [Accept an Invite Link](/getting-started/invite-link) |
+| Create a new club | [Create a Club (Admin)](/admin/create-club) |
+| Book an aircraft (mobile) | [Mobile Scheduling](/mobile/scheduling) |
+| Log a flight (mobile) | [Mobile Flight Operations](/mobile/flight-ops) |
+| Book an aircraft (web) | [Web Scheduling](/web/scheduling) |
+| Log a flight (web) | [Web Flights](/web/flights) |
+
+## What to expect after sign-up
+
+1. You create your account.
+2. You either create a club or join an existing club.
+3. If you join an existing club, your access may be **pending admin approval**.
+4. Once approved, you can use club scheduling and flight tools.
+
+:::tip
+If your club sent you an invitation link, use that link first. It pre-fills your email and connects your account to the right club.
+:::
