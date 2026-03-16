@@ -29,7 +29,7 @@ Use this flow when you are ready to depart and after landing.
 *Screenshot: [Start flight form with discrepancy and maintenance toggles]*
 
 :::tip
-For tach-billed aircraft, Hobbs may be hidden unless the aircraft is configured to track both times.
+For tach-billed aircraft, Hobbs may be hidden unless the aircraft is configured to track both times. Hobbs and Tach now behave independently in the workflow, so the meter shown for your aircraft is the one you need to complete.
 :::
 
 ## End a flight
@@ -40,7 +40,7 @@ For tach-billed aircraft, Hobbs may be hidden unless the aircraft is configured 
    - Tach end
    - Landings (if required by aircraft settings)
 3. Optional: log a squawk during closeout.
-4. Submit.
+4. Submit. When the required closeout fields are complete, the flight status updates to **Completed** automatically.
 
 *Screenshot: [End flight form with Hobbs/Tach, landings, and squawk button]*
 
@@ -57,6 +57,8 @@ Before submitting end values, the screen shows live estimates:
 
 - Calculated flight time
 - Estimated cost
+
+Recent flight lists are shown newest-date first, then by tail number, then by tach when flights share the same date.
 
 ## Common errors
 

@@ -32,8 +32,9 @@ Use admin **Schedule** to manage club-wide reservation operations.
 1. Open schedule and choose timeline view for conflict visibility.
 2. Click empty slot or reservation block.
 3. Select aircraft, start/end times, and purpose.
-4. Save changes.
-5. Confirm block appears in expected row/time.
+4. Use the date picker to choose a valid date. If you enter a date outside the allowed range, Air Boss adjusts it back to the nearest valid value.
+5. Save changes.
+6. Confirm block appears in expected row/time.
 
 ## Maintenance Hold Workflow
 
@@ -60,6 +61,7 @@ Use admin **Schedule** to manage club-wide reservation operations.
 ### Reservation save fails
 
 - Verify required fields and non-overlapping time range.
+- Recheck the selected date/time if the picker adjusted an invalid or out-of-range value.
 - Refresh schedule and retry in case of recent concurrent edits.
 
 ### Wrong aircraft/time updated

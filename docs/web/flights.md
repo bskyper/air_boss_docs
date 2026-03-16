@@ -22,7 +22,7 @@ The web pilot workspace has two flight pages:
    - Mark time discrepancy
    - Mark maintenance flight
 5. Enter landings if required for that aircraft.
-6. Save.
+6. Save. When all required values are present, the flight closes out as **Completed** automatically.
 
 *Screenshot: [My Flights log form with meter fields and discrepancy/maintenance toggles]*
 
@@ -31,6 +31,7 @@ The web pilot workspace has two flight pages:
 - End values cannot be lower than start values
 - Landing count can be required by aircraft settings
 - Hobbs visibility depends on billing method and "track both times"
+- Hobbs and Tach are handled independently in the log flow, so a missing or hidden value in one chain does not block the other
 
 ## Review totals and recent logs
 
@@ -39,6 +40,7 @@ My Flights also shows:
 - Hours summary cards
 - Estimated billing cues
 - Recent flight rows with discrepancy and squawk flags
+- Flight lists sorted by flight date descending, then tail number ascending, then tach ascending
 
 ## Use All Flights for club-wide review
 
@@ -49,6 +51,8 @@ In **All Flights**, filter by:
 - Date range
 - Time discrepancy only
 - Squawk-flagged only
+
+Results follow the same sort order: newest flight date first, then tail number, then tach.
 
 *Screenshot: [All Flights filters and results table]*
 
