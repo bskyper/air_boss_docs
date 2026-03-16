@@ -23,6 +23,7 @@ You can enable/disable push and/or email options for:
 
 Reservation email notifications can be turned on or off from this page like the other email categories.
 
+
 *Screenshot: [Notification Preferences page with grouped switches]*
 
 ## Save behavior

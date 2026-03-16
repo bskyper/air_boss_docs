@@ -72,4 +72,5 @@ That aircraft is configured to require landings for completion.
 
 ### "Wrong starting numbers were used"
 
+
 Use the **Starting times are incorrect** option at flight start so discrepancy values are captured in the log.

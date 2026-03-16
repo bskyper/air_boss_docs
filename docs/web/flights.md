@@ -56,6 +56,7 @@ Results follow the same sort order: newest flight date first, then tail number, 
 
 *Screenshot: [All Flights filters and results table]*
 
+
 :::tip
 Use My Flights to log your own flights. Use All Flights to audit trends across the whole club.
 :::
