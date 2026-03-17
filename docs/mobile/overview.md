@@ -6,6 +6,9 @@ sidebar_position: 1
 
 Air Boss mobile is built for day-of-flight use: reserving aircraft, logging flights, reporting issues, and managing your profile.
 
+Recent app updates also reduce startup time, so the app should open and reach the main workflow faster.
+
+
 ## Core areas
 
 - **Tower:** club snapshot and operational overview
