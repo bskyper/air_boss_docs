@@ -9,9 +9,10 @@ Comms is your club activity and announcement stream.
 ## Open Comms
 
 1. Tap **Comms** in the bottom navigation.
-2. Pull down or tap **Refresh Feed** to reload.
+2. Scroll down to load more items, or tap **Load More** at the bottom of the list.
+3. Pull down or tap **Refresh Feed** to reload the latest activity.
 
-*Screenshot: [Comms feed with activity rows and refresh action]*
+*Screenshot: [Comms feed with activity rows and Load More button]*
 
 ## What appears in Comms
 

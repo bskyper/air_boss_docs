@@ -11,7 +11,7 @@ Use Club Management to configure how your club operates.
 - **General** (`/dashboard/clubs/general`)
 - **Documents** (`/dashboard/clubs/documents`)
 - **Maintenance** (`/dashboard/clubs/maintenance`)
-- **Billing** (`/dashboard/clubs/billing`, currently coming soon)
+- **Billing** — managed from the main [Billing page](/admin/billing) (the per-club billing section has been removed)
 
 ## Update general club settings
 
