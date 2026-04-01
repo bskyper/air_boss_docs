@@ -21,12 +21,21 @@ If a trial or subscription is not active:
 
 - Club can be placed in **billing hold**
 - Scheduling, aircraft, and maintenance tools are paused
+
+### Web
+
 - Users may be directed to `/billing/hold`
-
-On `/billing/hold`:
-
 - Admins get a direct link to `/dashboard/billing`
 - Non-admin members are told to contact a club admin
+
+### Mobile
+
+The mobile app also enforces billing hold. When a club is on hold:
+
+- A **Billing Hold** screen blocks access to club features
+- Admins see an option to open the billing page on the website
+- Non-admin members see a message to contact their club admin
+- The hold screen checks billing status automatically and unlocks when the subscription is restored
 
 ## Recovery steps
 
