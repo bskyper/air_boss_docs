@@ -18,8 +18,8 @@ This page tracks the user-guide buildout across mobile and web.
 ## Priority 0 (Write Next)
 
 - Mobile:
-  - Full reservation lifecycle with examples (create, edit, cancel, conflicts)
-  - Flight lifecycle walkthrough with screenshots (start, end, squawk handoff)
+  - ✅ Full reservation lifecycle with examples (create, edit, cancel, conflicts)
+  - ✅ Flight lifecycle walkthrough with screenshots (start, end, squawk handoff)
   - Profile + document upload/expiration update walkthrough
 - Web pilot:
   - Schedule walkthrough (week/month, filters, edit own reservation)
