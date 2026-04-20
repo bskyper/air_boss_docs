@@ -52,3 +52,12 @@ There is no separate bottom-tab named "Schedule." Use:
 3. Tap **Reserve**
 
 This opens the reservation calendar for that aircraft.
+
+## Where instruction booking lives on mobile
+
+Instruction booking is accessed from two places:
+
+- **Pilot → Reserve Instructor** — standalone lesson booking (no existing aircraft reservation required)
+- **Reservation detail → Book Instruction** — books an instructor tied to an existing aircraft reservation
+
+See [Book a Flight Lesson (Mobile)](./instruction-booking.md) for the full walkthrough.
