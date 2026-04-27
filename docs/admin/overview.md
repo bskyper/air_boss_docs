@@ -13,7 +13,8 @@ This section covers the web admin workspace (`/dashboard`).
 - Member approvals, roles, and membership status
 - Document compliance and review actions
 - Pilot invitations
-- Club settings (general, required docs, maintenance rules)
+- Instructor designation and lesson oversight
+- Club settings (general, required docs, maintenance rules, instruction feature)
 - Billing and subscription state
 
 ## Recommended daily checklist
@@ -36,3 +37,4 @@ This section covers the web admin workspace (`/dashboard`).
 - [Billing](/admin/billing)
 - [Club Management](/admin/club-management)
 - [Create a Club](/admin/create-club)
+- [Manage Instructors](/admin/instructors)
