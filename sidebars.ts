@@ -34,6 +34,7 @@ const sidebars: SidebarsConfig = {
       items: [
         'web/overview',
         'web/scheduling',
+        'web/instructor-network',
         'web/instruction-booking',
         'web/flights',
         'web/aircraft',
