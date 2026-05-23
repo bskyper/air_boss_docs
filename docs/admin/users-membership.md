@@ -23,6 +23,7 @@ For each member, admins can:
 - Change role (member/admin)
 - Toggle active/inactive access
 - Toggle maintenance-team assignment (if permitted)
+- Toggle instructor status (see [Manage Instructors](/admin/instructors))
 - Review contact and ratings
 - Review document status summary
 - Manage per-aircraft approvals

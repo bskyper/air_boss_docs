@@ -8,7 +8,7 @@ Reservations move through a defined set of statuses from the moment you book to 
 
 ## What you'll need
 
-- Active club selected (see [Switching clubs](/docs/mobile/navigation))
+- Active club selected (see [Switching clubs](/mobile/navigation))
 - Approved membership — pending members cannot create reservations
 - Aircraft access within your club
 
@@ -157,7 +157,7 @@ The 30-minute conflict buffer can make a slot appear available visually while st
 
 ### "My reservation shows Awaiting Log after I landed"
 
-Open the reservation and use the end-flight flow to complete your flight log. See [Start and End Flights](/docs/mobile/flight-ops) for the closeout steps.
+Open the reservation and use the end-flight flow to complete your flight log. See [Start and End Flights](/mobile/flight-ops) for the closeout steps.
 
 ### "I can see a maintenance reservation blocking my preferred time"
 
