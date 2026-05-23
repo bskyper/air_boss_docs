@@ -20,6 +20,7 @@ const sidebars: SidebarsConfig = {
         'mobile/overview',
         'mobile/navigation',
         'mobile/scheduling',
+        'mobile/instruction-booking',
         'mobile/reservation-lifecycle',
         'mobile/flight-ops',
         'mobile/flight-lifecycle',
@@ -33,6 +34,7 @@ const sidebars: SidebarsConfig = {
       items: [
         'web/overview',
         'web/scheduling',
+        'web/instruction-booking',
         'web/flights',
         'web/aircraft',
         'web/squawks',
@@ -50,6 +52,7 @@ const sidebars: SidebarsConfig = {
         'admin/maintenance',
         'admin/flight-log-entry',
         'admin/users-membership',
+        'admin/instructors',
         'admin/document-review',
         'admin/invitations',
         'admin/messaging',
