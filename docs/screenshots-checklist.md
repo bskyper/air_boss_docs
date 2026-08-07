@@ -40,10 +40,19 @@ Examples:
 
 ### Onboarding
 
-- [ ] `onboarding-signup-step-01-sign-up-screen.webp`
-- [ ] `onboarding-join-club-step-01-enter-club-key.webp`
-- [ ] `onboarding-join-club-step-02-enter-club-password.webp`
-- [ ] `onboarding-join-club-step-03-request-to-join.webp`
+:::warning
+The sign-up flow changed in the 2026-08 minimal-signup wave: mobile is now a 2-step wizard (Account Details → Join a Club), web is a 4-field form (email, full name, password, confirm password), and phone/emergency contact moved to just-in-time gates. Any existing captures of the old sign-up or join flow need retakes.
+:::
+
+- [ ] `onboarding-signup-step-01-sign-up-screen.webp` — needs retake (2026-08 signup changes: no phone/emergency fields)
+- [ ] `onboarding-signup-step-02-wizard-account-details.webp` — new (2-step wizard, step 1: full name + optional photo)
+- [ ] `onboarding-signup-step-03-wizard-join-a-club.webp` — new (2-step wizard, step 2: Yes/No club key prompt)
+- [ ] `onboarding-signup-web-step-01-four-field-form.webp` — new (web: email, full name, password, confirm password)
+- [ ] `onboarding-gate-step-01-before-you-fly-emergency-contact.webp` — new (emergency-contact gate at club join / first lesson-time request)
+- [ ] `onboarding-gate-step-02-phone-first-connection-request.webp` — new (phone gate at first instructor connection request)
+- [ ] `onboarding-join-club-step-01-enter-club-key.webp` — needs retake (2026-08 signup changes: join step now includes Before you fly section)
+- [ ] `onboarding-join-club-step-02-enter-club-password.webp` — needs retake (2026-08 signup changes)
+- [ ] `onboarding-join-club-step-03-request-to-join.webp` — needs retake (2026-08 signup changes)
 - [ ] `onboarding-join-club-step-04-pending-approval-screen.webp`
 - [ ] `onboarding-create-club-web-step-01-web-onboarding-entry.webp`
 - [ ] `onboarding-create-club-web-step-02-create-club-form.webp`

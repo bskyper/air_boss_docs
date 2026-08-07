@@ -17,6 +17,10 @@ Profile and documents are separate pages in the web pilot workspace.
    - Pilot ratings
 3. Save.
 
+:::tip
+Phone and emergency contact may be blank at first — sign-up no longer collects them. Air Boss asks for them when first needed (phone at your first instructor connection request, emergency contact when you join or create a club or request a lesson time), and you can fill them in here any time.
+:::
+
 *Screenshot: [Profile page with contact fields, ratings, and save button]*
 
 ## Send password reset email

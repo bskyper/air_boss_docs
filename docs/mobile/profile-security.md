@@ -13,6 +13,10 @@ Use the **Pilot** area for account settings, documents, and security controls.
 3. Update contact details, emergency contact, or photo.
 4. Save.
 
+:::tip
+Your phone number and emergency contact may be blank at first — sign-up no longer collects them. Air Boss asks for them when first needed (phone at your first instructor connection request, emergency contact when you join a club or request a lesson time), and you can add or edit them here any time.
+:::
+
 *Screenshot: [Edit Profile screen with contact and emergency fields]*
 
 ## Manage documents and certificates

@@ -10,6 +10,7 @@ This guide covers joining a club from mobile or web.
 
 - Your club's **Club Key**
 - Your club's **Club Password**
+- An emergency contact name and phone, if you don't have one on file yet — joining a club is the **Before you fly** moment where Air Boss asks for it (clubs need someone to call in an emergency)
 
 :::warning
 Air Boss join flow uses club credentials, not club-name search.
