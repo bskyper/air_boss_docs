@@ -38,8 +38,8 @@ Air Boss helps flight clubs run day-to-day operations from one place: scheduling
 
 ## What to expect after sign-up
 
-1. You create your account.
-2. You either create a club or join an existing club.
+1. You create your account with just your email, a password, and your name, then confirm your email.
+2. You either create a club or join an existing club. (Joining or creating a club is when Air Boss asks for your emergency contact.)
 3. If you join an existing club, your access may be **pending admin approval**.
 4. Once approved, you can use club scheduling and flight tools.
 

@@ -30,8 +30,10 @@ Pending, unexpired invites can be canceled.
 
 Invitees open `/invite/[token]` and can:
 
-- Sign up and join in one flow, or
+- Sign up and join in one flow (sign-up asks only for email, password, and full name), or
 - Sign in and accept immediately
+
+If the invitee has no emergency contact on file, a **Before you fly** step collects one before they join — so every member still has an emergency contact on the roster by the time you approve them.
 
 If invite is invalid, expired, or already accepted, the page explains next steps.
 

@@ -7,7 +7,13 @@ sidebar_position: 100
 ## Account and Access
 
 ### How do I create an account?
-Use [Sign Up](/getting-started/signup). On mobile, sign-up starts with email/password, then profile and club credentials. On web, profile fields are part of sign-up.
+Use [Sign Up](/getting-started/signup). On both mobile and web, sign-up asks only for your email, a password (at least 8 characters), and your full name — a profile photo is optional. After sign-up, click the link in the confirmation email to activate your account.
+
+### Why wasn't I asked for a phone number or emergency contact at sign-up?
+Air Boss asks for those when they are first needed instead: your phone number the first time you send an instructor connection request, and your emergency contact the first time you join or create a club or request a lesson time (the **Before you fly** step). You can also add both any time in your profile settings.
+
+### I got "An account with this email already exists" — what now?
+That email is already registered. Use the sign-in page instead, or reset your password if you've forgotten it.
 
 ### How do I join a club?
 Use your club's **club key** and **club password**. Air Boss does not use club-name search for joining.
@@ -19,6 +25,9 @@ Your membership is waiting for admin approval. This is normal for clubs using ap
 Yes. Membership is club-scoped. Choose the active club before booking or uploading documents.
 
 ## Password and Login
+
+### What are the password requirements?
+At least 8 characters, on both mobile and web. Passwords that have appeared in a known data breach are also rejected — if you see that message, choose a different password.
 
 ### How do I change my password on mobile?
 Go to **Pilot > Edit Profile > Change Password**.
