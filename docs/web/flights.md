@@ -43,6 +43,8 @@ Turn on **Maintenance flight** if the flight was for maintenance rather than nor
 - End values cannot be lower than start values.
 - Landing count may be required, depending on the aircraft's settings.
 - All required fields must be filled before the flight saves.
+- A flight that logs more than 6.0 hours on Hobbs or Tach is questioned, not blocked. The form shows a line naming the hours. Check the readings, then save again to confirm.
+- On a twin, each engine's reading is checked the same way. Engine 1's tach is shown as "Airframe tach (Engine 1 · Left)" and further engines as "Engine 2 (Right) tach".
 
 ## Review your recent flights
 
@@ -103,6 +105,9 @@ The aircraft bills by Tach only and does not track Hobbs. Enter Tach values — 
 
 **"End value cannot be lower than start value" error**
 Correct the entry. If the meter wrapped around (common with older Hobbs meters), enable the time discrepancy toggle and note the wrap in the description. Contact your admin to adjust the flight manually.
+
+**I saved a flight with a wrong reading**
+Once a flight is completed, only a club admin can change its readings. Ask an admin to correct it under **Flight Logs**. If your reading had set the aircraft's Hobbs or Tach, the aircraft's meter moves back by itself when the flight is corrected. You can still add meter photos and a fuel receipt to your own completed flight.
 
 **Landings field is missing**
 The aircraft is not configured to track landings. No count is needed.
