@@ -66,6 +66,14 @@ Recent flight lists are shown newest-date first, then by tail number, then by ta
 
 Recheck Hobbs/Tach end values.
 
+### "Check the ending reading"
+
+The hours you entered are longer than the time since **Start Flight** by more than 1.0 hour. Tap **Go back & fix** to correct the reading, or **It's correct** if it is right. See [Flight Lifecycle](/mobile/flight-lifecycle) for details.
+
+### "I typed the wrong ending reading"
+
+Once a flight is completed, only a club admin can change its readings. Ask an admin to correct the flight. The aircraft's Hobbs or Tach moves back by itself when they do.
+
 ### "Landing count required"
 
 That aircraft is configured to require landings for completion.

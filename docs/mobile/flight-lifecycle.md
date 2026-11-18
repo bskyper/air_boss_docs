@@ -20,7 +20,7 @@ This guide walks through the complete arc of a logged flight — from tapping St
 | **In Progress** | Flight has been started; departure readings recorded |
 | **Completed** | End-of-flight readings submitted; cost calculated |
 
-A flight in **In Progress** state is visible to admins in the Tower. Once **Completed**, the record appears in your flight history and feeds into club billing.
+A flight in **In Progress** state is visible to admins in the Tower. Once **Completed**, the record appears in your flight history and feeds into club billing. After that, only a club admin can change its readings.
 
 ---
 
@@ -150,6 +150,19 @@ Tap **Complete Flight**.
 - Your estimated cost and calculated time appear in the flight summary.
 - The flight appears in your flight history in the **Hangar** tab.
 
+### If the app asks you to check a reading
+
+Before it saves, Air Boss compares the hours you are logging with the time since you tapped **Start Flight**. If the Hobbs or Tach hours are longer than that by more than 1.0 hour, a **Check the ending reading** dialog names the numbers, for example "This logs 6.3 tach hours, but the flight started 33 minutes ago."
+
+- Tap **Go back & fix** to correct the reading.
+- Tap **It's correct** to save it as entered.
+
+The question never blocks you. If you tapped Start Flight late, the reading can be right.
+
+If you end the flight within 10 minutes of starting it, you are logging a flight you have already flown, so the clock is not compared. Air Boss asks only when one flight logs more than 6.0 hours on Hobbs or Tach. Logging a flight after the fact with **Log Flight** asks the same question.
+
+On a twin, each engine's reading is checked the same way. Messages call engine 1's tach "Airframe tach (Engine 1 · Left)" and further engines "Engine 2 (Right) tach". The word in brackets is the engine's label, when it has one.
+
 ---
 
 ## Part 4 — After a maintenance flight
@@ -194,6 +207,14 @@ Use the **Starting times are incorrect** toggle to enter the correct panel readi
 ### "End value must be greater than start"
 
 Tach and Hobbs values must increase from start to end. Double-check you are reading the correct meter on the panel. If the aircraft panel shows a lower number than your start, flag it to your admin before submitting.
+
+### "I typed the wrong ending reading"
+
+Once a flight is completed, only a club admin can change its readings. Ask an admin to correct the flight; they do it on the web under **Flight Logs**.
+
+You do not need to ask for the aircraft to be reset as well. If your reading had set the aircraft's Hobbs or Tach, the aircraft's meter moves back by itself when the admin corrects the flight.
+
+You can still add meter photos and a fuel receipt to your own completed flight.
 
 ### "Landing count required"
 

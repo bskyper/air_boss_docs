@@ -29,6 +29,7 @@ This page tracks the user-guide buildout across mobile and web.
   - Users and pending approvals (role changes, status changes, document review)
   - Messaging broadcast workflow (push + comms feed behavior)
   - Billing and hold-state recovery flow
+  - ✅ Correcting a finished flight, entry questions and automatic Hobbs/Tach corrections (2026-11)
 
 ## Priority 1
 

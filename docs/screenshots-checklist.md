@@ -66,6 +66,7 @@ The sign-up flow changed in the 2026-08 minimal-signup wave: mobile is now a 2-s
 - [ ] `mobile-flight-ops-step-01-start-flight-form.webp`
 - [ ] `mobile-flight-ops-step-02-active-flight-banner.webp`
 - [ ] `mobile-flight-ops-step-03-end-flight-form.webp`
+- [ ] `mobile-flight-ops-step-04-check-the-ending-reading-dialog.webp` — new (2026-11: question before saving an unlikely reading)
 - [ ] `mobile-comms-step-01-feed-overview.webp`
 - [ ] `mobile-profile-security-step-01-documents-section.webp`
 
@@ -89,6 +90,9 @@ The sign-up flow changed in the 2026-08 minimal-signup wave: mobile is now a 2-s
 - [ ] `admin-messaging-step-01-broadcast-form.webp`
 - [ ] `admin-maintenance-step-01-squawk-board.webp`
 - [ ] `admin-billing-step-01-billing-status.webp`
+- [ ] `admin-flight-log-entry-step-01-long-flight-confirm-line.webp` — new (2026-11: line under the row asking to save again)
+- [ ] `admin-aircraft-step-01-edit-meter-confirm-line.webp` — new (2026-11: Edit Aircraft asking before a large Hobbs/Tach change)
+- [ ] `admin-aircraft-step-02-tach-corrected-notice.webp` — new (2026-11: "Tach corrected" notice)
 
 ## Markdown Snippet
 
