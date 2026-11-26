@@ -28,6 +28,6 @@ All business rules, domain knowledge, and feature specifications live in the **a
 |-------|------|------|
 | Mobile app | `air_boss` | Flutter |
 | Web dashboard | `air_boss_web` | Next.js |
-| Database | `air_boss_supabase` | Supabase (Postgres + Edge Functions) |
+| Database | `air_boss_db` | Supabase (Postgres + Edge Functions) |
 | Business rules | `air_boss_rules` | Obsidian vault + LLM Wiki |
 | Help docs | `air_boss_docs` (this repo) | Docusaurus |
